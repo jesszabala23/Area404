@@ -23,20 +23,24 @@
     font-family: 'Montserrat', sans-serif;
 }
   
-  /* Add a gray background color and some padding to the footer */
   footer {
     background-color: red;
     padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
   }
   
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
+    width: 100%;
     margin: auto;
     min-height:200px;
 }
 
-/* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
   .carousel-caption {
     display: none; 
+  }
+  
+  .socialmedia {
+    float: right;
   }
