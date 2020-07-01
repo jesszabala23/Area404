@@ -26,17 +26,22 @@
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.background-image{
+  background-size: cover;
+}
   
   /* Add a gray background color and some padding to the footer */
   footer {
     background-color: red;
     padding: 50px;
+    font-size: 15px;
   }
   
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     margin: auto;
-    min-height:200px;
+    height:200px;
 }
 
 
