@@ -37,13 +37,16 @@
     padding: 50px;
     font-size: 15px;
   }
-  
-.carousel-inner img {
-    width: 100%; /* Set width to 100% */
+  /* moving photos on attractions page */
+
+.carousel-inner img{
+  display: block;
+    width: 100%;
+    max-height: 550px;
     margin: auto;
-    height:200px;
 }
 
+/* what we do images/ links */
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
