@@ -1,3 +1,4 @@
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -8,6 +9,12 @@
     padding-top: 2%;
     font-size: 26px;
     font-family: 'Montserrat', sans-serif;
+    height: 165px;
+  }
+
+  .navbar img{
+      height: 110px;
+      width: 180px;
   }
 
   .navbar a li{
@@ -37,29 +44,9 @@
     padding: 50px;
     font-size: 15px;
   }
-  /* moving photos on attractions page */
 
-.carousel-inner img{
-  display: block;
-    width: 100%;
-    max-height: 550px;
-    margin: auto;
-}
-
-/* what we do images/ links */
-.col-sm-4 park img{
-  height:20px;
-}
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
-
-  /* nature preserve page */
-  .col-sm-4{
+img{
     text-align: left;
-    height: 3px;
-    width: 100px;
+    height: 300px;
+    width: 400px;
 }
