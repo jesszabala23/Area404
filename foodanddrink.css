@@ -1,0 +1,87 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-menu {
+    background-color: red;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-item {
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    background-color:hsl(0, 47%, 53%);
+    border-radius: 5px;
+    border-width: 1px;  
+    color: hsl(206, 17%, 28%);
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px 40px;
+}
+
+
+  footer {
+    background-color: red;
+    padding: 20px 250px 200px 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height:200px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+
+  #left {
+    float: left;
+    width: 33.3%;
+  }
+  
+  #middle {
+    float: left;
+    width: 33.3%;
+  }
+  
+  #right {
+    float: left;
+    width: 33.3%;
+  }
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
