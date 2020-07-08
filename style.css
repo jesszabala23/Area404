@@ -23,11 +23,12 @@
     font-family: 'Montserrat', sans-serif;
 }
   
-  footer {
+footer {
     background-color: red;
-    padding: 20px 250px 200px 250px;
+    padding: 20px 300px 20px 420px;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    align-content: center;
   }
   
 .carousel-inner img {
@@ -36,22 +37,7 @@
     min-height:200px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .carousel-caption {
     display: none; 
-  }
-
-  #left {
-    float: left;
-    width: 33.3%;
-  }
-  
-  #middle {
-    float: left;
-    width: 33.3%;
-  }
-  
-  #right {
-    float: left;
-    width: 33.3%;
   }
