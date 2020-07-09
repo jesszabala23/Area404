@@ -36,6 +36,18 @@
   text-decoration: none;
 }
 
+/*CAROUSEL*/
+.carFest, .carView, .carDate {
+  background-color: red;
+  opacity: 0.6;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.carText {
+  color: white;
+  opacity: 1.0;
+}
+
 /* ADVERTISE & SUBSCRIBE BUTTONS*/
 .well {
   border-style: solid;
