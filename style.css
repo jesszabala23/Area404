@@ -58,6 +58,7 @@
   border-style: solid;
   border-color: red;
   border-width: 2px;
+  transition: all 4.0s;
 }
 .doNotMiss {
   color: black;
@@ -79,6 +80,7 @@ footer {
     color: white;
     align-content: center;
   }
+
 
 /*CAROUSEL*/
 
