@@ -104,6 +104,27 @@ footer {
     border-radius: 5px;
   }
 
+/*AQUARIUM*/
+.aquastory {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+.child {
+  align-content: center;
+}
+.article {
+  text-align: left;
+  padding-top: 20px;
+}
+#support {
+  text-align: center;
+}
+#donate {
+  color: red;
+}
+
+
 /*CAROUSEL*/
 
 .carousel-inner img {
