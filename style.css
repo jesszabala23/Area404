@@ -58,7 +58,7 @@
   border-style: solid;
   border-color: red;
   border-width: 2px;
-  transition: all 1.0s;
+  transition: all .6s;
 }
 .doNotMiss {
   color: black;
