@@ -27,16 +27,33 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-toggle{
+  background-color:#000000;
+}
+
+  /* login */
+  ul .nav .navbar-nav .navbar-right{ 
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #f39c12;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
 .background-image{
   background-size: cover;
 }
   
-  /* Add a gray background color and some padding to the footer */
-  footer {
-    background-color: red;
-    padding: 50px;
-    font-size: 15px;
-  }
+ 
   /* moving photos on attractions page */
 
 .carousel-inner img{
@@ -60,6 +77,13 @@
   /* nature preserve page */
   .col-sm-4{
     text-align: left;
-    height: 3px;
+    height: 400px;
     width: 100px;
 }
+
+/* Add a gray background color and some padding to the footer */
+  footer {
+    background: red;
+    padding: 50px;
+    font-size: 15px;
+  }
