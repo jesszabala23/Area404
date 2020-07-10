@@ -81,6 +81,28 @@ footer {
     align-content: center;
   }
 
+  /*COUNTDOWN*/
+  section {
+    margin: auto;
+    padding: 30px;
+  }
+  .picture, .countdown {
+    margin: auto;
+    padding: 10px;
+  }
+  .link {
+    text-align: right;
+    padding-right: 20px;
+  }
+  .line {
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right, red, white);
+  }
+  .profile {
+    border-style: solid;
+    border-radius: 5px;
+  }
 
 /*CAROUSEL*/
 
@@ -93,6 +115,7 @@ footer {
   .carousel-caption {
     display: none; 
   }
+
   
   /*LOG-IN PAGE*/
 	/* Coded with love by Mutiullah Samim */
@@ -158,3 +181,4 @@ footer {
   .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #c0392b !important;
   }
+
