@@ -43,8 +43,16 @@ main{
     background-color:white;
     padding: 30px;
     font-size: 20px;
+    margin-block-end: 30px;
   }
-  .btn{
+  .btn-group{
+    margin-right:30px;
+    margin-left:30px;
+    scroll-behavior: auto;
+
+  }
+
+  .btn {
     width: 200px;
     height: 60;
     font-size: 15px;
@@ -54,8 +62,9 @@ main{
     border: solid;
     border-color: red;
     border-width: 0.3rem;
-    padding: 0.3rem;
-    margin: 0.2rem;
+    padding: 0.6rem;
+    margin: 0.5rem;
+    
   }
   button {
     width: 200px;
@@ -67,9 +76,8 @@ main{
     border: solid;
     border-color: red;
     border-width: 0.3rem;
-    padding: 0.3rem;
-    margin: 0.2rem;
-
+    padding: 0.6rem;
+    margin: 0.5rem;
   }
   .btn:hover{
     width: 200px;
@@ -81,20 +89,33 @@ main{
     border: solid;
     border-color:white;
     border-width: 0.3rem;
-    padding: 0.3rem;
-    margin: 0.2rem;
-
+    padding: 0.6rem;
+    margin: 0.5rem;
   }
 
 #symbol {
+    object-position: bottom;
     color:red;
     font-weight: 500px;
     text-align: center;
-    font-size: 30vw;
+    font-size: 20vw;
     line-height: 100%;
 }
 
-
+.address{
+  position: relative;
+  float: right;
+  color:whitesmoke;
+  border-color: black;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  background-color: ;
+}
+.abtRest{
+  
+size: 300;}
   
 #left {
     
