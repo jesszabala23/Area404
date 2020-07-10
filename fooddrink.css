@@ -1,0 +1,122 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-menu {
+    background-color: red;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-item {
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    background-color: whitesmoke;
+    color:black;
+    padding: 20px;
+}
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: auto;
+   /* min-width: 100%;
+    min-height: 100%;*/
+  }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    padding: 30px;
+    font-size: 20px;
+  }
+  .btn{
+    width: 200px;
+    height: 60;
+    font-size: 15px;
+    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    border: solid;
+    border-color: red;
+    border-width: 0.3rem;
+    padding: 0.3rem;
+    margin: 0.2rem;
+  }
+  button {
+    width: 200px;
+    height: 60;
+    font-size: 15px;
+    background-color:red;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    border: solid;
+    border-color: red;
+    border-width: 0.3rem;
+    padding: 0.3rem;
+    margin: 0.2rem;
+
+  }
+  .btn:hover{
+    width: 200px;
+    height: 60;
+    font-size: 15px;
+    background-color:red;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    border: solid;
+    border-color:white;
+    border-width: 0.3rem;
+    padding: 0.3rem;
+    margin: 0.2rem;
+
+  }
+
+#symbol {
+    color:red;
+    font-weight: 500px;
+    text-align: center;
+    font-size: 30vw;
+    line-height: 100%;
+}
+
+
+  
+#left {
+    
+    float: left;
+    width: 33.3%;
+  }
+  
+  #middle {
+    
+    float: left;
+    width: 33.3%;
+  }
+  
+  #right {
+    
+    float: left;
+    width: 33.3%;
+  }
+footer {
+    margin-top: 10px;
+    background-color: red;
+    padding: 20px 250px 200px 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }

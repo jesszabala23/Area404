@@ -1,6 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -22,8 +23,9 @@
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .wrapper{
-    background-color:hsl(0, 47%, 53%);
+    background-color: red;
     border-radius: 5px;
     border-width: 1px;  
     color: hsl(206, 17%, 28%);
@@ -33,14 +35,47 @@
     padding: 20px 40px;
 }
 
+ #btnTopRes, #btnFilt, #btnMap{
+  position: sticky;
+  display:inline-block;
+  width: 200px;
+  height: 55px;
+  font-size: 15px;
+  background-color:white;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+  border: solid;
+  border-color: red;
+  border-width: 0.3rem;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  
+}
 
-  footer {
+#btnTopRes:hover,#btnFilt:hover, #btnMap:hover{
+  position: sticky;
+  display:inline-block;
+  width: 200px;
+  height: 55px;
+  font-size: 15px;
+  background-color:red;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  border: solid;
+  border-color:gray;
+  border-width: 0.3rem;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  
+}
+
+footer {
     background-color: red;
     padding: 20px 250px 200px 250px;
     font-family: 'Montserrat', sans-serif;
     color: white;
   }
-  
+
 .carousel-inner img {
     width: 100%;
     margin: auto;
@@ -69,11 +104,11 @@
 
   /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: fixed;
+    position: relative;;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 50%;
+    min-height: 50%;
   }
   
   /* Add some content at the bottom of the video/page */
@@ -85,3 +120,39 @@
     width: 100%;
     padding: 20px;
   }
+
+    /* Style the navbar */
+#navbarRes {
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  /*position: sticky;*/
+}
+
+/* Navbar links */
+#navbarRes a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.foodtext {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .foodtext {
+  padding-top: 60px;
+}}

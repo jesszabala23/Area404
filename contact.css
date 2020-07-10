@@ -1,0 +1,30 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-menu {
+    background-color: red;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-item {
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    background-color: red;
+    padding: 20px 250px 200px 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
