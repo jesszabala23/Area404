@@ -36,6 +36,7 @@ main{
    /* min-width: 100%;
     min-height: 100%;*/
   }
+  
   div.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -101,8 +102,11 @@ main{
     text-align: center;
     font-size: 10vw;
     line-height: 100%;
-   
+    position: relative;
     
+}
+#resPress{
+  position: absolute;
 }
 #symbol, .resName {
   display: inline-block;
@@ -119,13 +123,13 @@ main{
 .resName{ 
   font-weight: 700px;
   text-align: center;
-  font-size: 6vw;
+  font-size: 4vw;
   line-height: 100%;
 }
 
 .resInsta{
-  margin-left:30%;
-  margin-right: 30%;
+  margin-left:25%;
+  margin-right: 25%;
 }
 .address {
   display: inline-block;
@@ -158,10 +162,34 @@ hr {
     float: left;
     width: 33.3%;
   }
+  .instagram-media{
+    text-align: left;
+    width: 50%;
+    height: 600;
+    margin-left:0;
+    margin-right: 0;
+  }
+  
 footer {
     margin-top: 10px;
     background-color: red;
     padding: 20px 250px 200px 250px;
     font-family: 'Montserrat', sans-serif;
     color: white;
+  }
+  @media only screen and (max-width: 320px) {
+    .resInsta{
+      text-align: left;
+      width: 200px;
+      height: 100px;
+      margin-left:0;
+      margin-right: 0;
+    }
+    .instagram-media{
+      text-align: left;
+      width: 200px;
+      height: 100px;
+      margin-left:0;
+      margin-right: 0;
+    }
   }
