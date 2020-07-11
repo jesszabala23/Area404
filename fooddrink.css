@@ -94,29 +94,53 @@ main{
   }
 
 #symbol {
-    object-position: bottom;
     color:red;
-    font-weight: 500px;
+   /* border-style: solid;
+    border-color: red; */   
+    font-weight: 700px;
     text-align: center;
-    font-size: 20vw;
+    font-size: 10vw;
     line-height: 100%;
+   
+    
+}
+#symbol, .resName {
+  display: inline-block;
 }
 
-.address{
-  position: relative;
-  float: right;
-  color:whitesmoke;
+.info  {
+  font-size: 2rem;
+  text-align: center;
+  color:black;
   border-color: black;
-  float: left;
-  width: 200px;
-  height: 200px;
   border-style: solid;
-  background-color: ;
+  background-color:whitesmoke;
 }
-.abtRest{
-  
-size: 300;}
-  
+.resName{ 
+  font-weight: 700px;
+  text-align: center;
+  font-size: 6vw;
+  line-height: 100%;
+}
+
+.resInsta{
+  margin-left:30%;
+  margin-right: 30%;
+}
+.address {
+  display: inline-block;
+}
+hr { 
+    display: solid;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  /*  margin-left: auto;
+    margin-right: auto; */
+    border-color: black;
+    border-width: 3px;
+  } 
+
+
 #left {
     
     float: left;
