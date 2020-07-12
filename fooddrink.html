@@ -12,6 +12,11 @@
 </html>
 
 <body>
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+    
+    <div id="flip"> Special Covid-19 Message click here.</div>
+    <div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
 <!-- Header -->
 <nav class="navbar navbar-inverse" style="background-color: white">
     <div class="container-fluid">
@@ -355,10 +360,19 @@
         </div>
     </div>
 </main>
+<!----------------------------------------------------JQuery code----------------------------------------------------------------------------------------------->
+<script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+      });
+      
+      });
 
+
+    </script>
 </body>
-
-<!----------------------------------------------------Navigationbar------------------------------------------------------------------------------------->   
+<!----------------------------------------------------Navigation bar------------------------------------------------------------------------------------->   
 
 <footer>
 <div class ="container container-fluid">
