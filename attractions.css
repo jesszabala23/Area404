@@ -82,7 +82,7 @@
 }
 
 /* Add a gray background color and some padding to the footer */
-  footer {
+  footer{
     background: red;
     padding: 50px;
     font-size: 15px;

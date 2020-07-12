@@ -89,8 +89,9 @@ margin: ;
 .attractions-link{
  margin: 10px;
 }
+
   /* Add a gray background color and some padding to the footer */
-  footer {
+  footer{
     background-color: red;
     padding: 50px;
     font-size: 15px;
