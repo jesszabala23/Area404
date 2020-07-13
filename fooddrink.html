@@ -35,13 +35,16 @@
         <ul class="nav navbar-nav">
             <br><li class="active"><a href="index.html">Home</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="foodrinnk.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
+            <!--    <a class="nav-link dropdown-toggle" href="foodrink.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
                 Food & Drinks
-                </a>
+                </a> -->
+                <a class="nav-link" href="fooddrink.html" >
+                    Food & Drinks
+                    </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" onclick="location.href='#noOne'" >404 Top 10</a><br>
-                <a class="dropdown-item" href="#">Family Friendly</a><br>
-                <a class="dropdown-item" href="#">Date Night</a>
+                <a class="dropdown-item" onclick="location.href='#noOne'"href="/filterByFoodDrink.html">Filter By</a><br>
+                
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -88,14 +91,10 @@
             </div>
         </div>
         <div class="btn-group">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button type="button" onclick="location.href='filterByFoodDrink.html'" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Filter By
             </button>
-            <div class="dropdown-menu dropdown-menu-left">
-              <button class="dropdown-item" type="button">Family Friendly</button>
-              <button class="dropdown-item" type="button">Date Night</button>
-              <button class="dropdown-item" type="button">Vegan</button>
-            </div>
+            
         </div>
         <div class="btn-group">
             <button type="button" onclick="location.href='#googleMap'" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

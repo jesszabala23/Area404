@@ -196,7 +196,7 @@ hr {
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: rgb(56, 7, 7); /* Add a dark-grey background on hover */
   }
 footer {
     margin-top: 10px;
