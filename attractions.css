@@ -68,22 +68,23 @@
   height:20px;
 }
 
+/* Add a gray background color and some padding to the footer */
+footer {
+  background: red;
+  padding: 50px;
+  font-size: 15px;
+}
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
   .carousel-caption {
     display: none; 
   }
 
-  /* nature preserve page */
-  .col-sm-4{
-    text-align: left;
-    height: 400px;
-    width: 100px;
-}
-
-/* Add a gray background color and some padding to the footer */
-  footer{
-    background: red;
-    padding: 50px;
-    font-size: 15px;
+    /* nature preserve page */
+    .col-sm-4{
+      text-align: left;
+      height: 400px;
+      width: 100px;
   }
+}
