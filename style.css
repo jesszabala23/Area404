@@ -58,6 +58,7 @@
   border-style: solid;
   border-color: red;
   border-width: 2px;
+  transition: all .6s;
 }
 .doNotMiss {
   color: black;
@@ -72,7 +73,6 @@
 }
 
 /*FOOTER*/
-
 footer {
     background-color: red;
     padding: 20px 250px;
@@ -80,6 +80,50 @@ footer {
     color: white;
     align-content: center;
   }
+
+  /*COUNTDOWN*/
+  section {
+    margin: auto;
+    padding: 30px;
+  }
+  .picture, .countdown {
+    margin: auto;
+    padding: 10px;
+  }
+  .link {
+    text-align: right;
+    padding-right: 20px;
+  }
+  .line {
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right, red, white);
+  }
+  .profile {
+    border-style: solid;
+    border-radius: 5px;
+  }
+
+/*AQUARIUM*/
+.aquastory {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+.child {
+  align-content: center;
+}
+.article {
+  text-align: left;
+  padding-top: 20px;
+}
+#support {
+  text-align: center;
+}
+#donate {
+  color: red;
+}
+
 
 /*CAROUSEL*/
 
@@ -92,6 +136,7 @@ footer {
   .carousel-caption {
     display: none; 
   }
+
   
   /*LOG-IN PAGE*/
 	/* Coded with love by Mutiullah Samim */
@@ -118,7 +163,7 @@ footer {
     width: 170px;
     top: -75px;
     border-radius: 50%;
-    background: #60a3bc;
+    background: red;
     padding: 10px;
     text-align: center;
   }
@@ -157,3 +202,4 @@ footer {
   .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #c0392b !important;
   }
+
