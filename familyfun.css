@@ -58,41 +58,39 @@
   background-size: cover;
 }
   /* Family fun section */
+  /* paragraph above photos */
 .family-fun{
     text-align: left;
+    
 }
-
+.family-fun p{
+  margin-left: 20px;
+}
 .family-fun h1{
   margin-left: 20px;
 }
 
-.family-fun p{
-  margin-left: 20px;
 
-}
 
 /* photos */
  img{
     text-align: center;
     height: 300px;
     width: 500px;
-}
-.col-sm-4{
-  margin: 0px 0px 0px 40px;
+    text-align: left;
 }
 
-.col-sm-4 .events{
-margin: ;
-}
 
 /* Attractions button */
-.attractions-link{
+.attractionsBtn{
  margin: 10px;
+ background-color: lightgray;
 }
 
   /* Add a gray background color and some padding to the footer */
   footer{
     background-color: red;
+    color: white;
     padding: 50px;
     font-size: 15px;
   }

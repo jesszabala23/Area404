@@ -76,17 +76,23 @@ img{
     margin-bottom: 20px;
 }
 
-@media screen and ( max-width: 1024px ) {
+footer {
+    background-color: red;
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+  }
+
+  .social a {
+    columns: #fffffff;
+  }
+
+/* @media screen and ( max-width: 1024px ) {
   img.responsive { width: 200px; }
   }
   @media screen and ( min-width: 1025px) {
   img.responsive { width: 300px; margin-left: 0;}
   }
-  img.responsive { height: auto; }
+  img.responsive { height: auto; } */
 
-/* Add a gray background color and some padding to the footer */
-  footer {
-    background-color: red;
-    padding: 50px;
-    font-size: 15px;
-  }
+
