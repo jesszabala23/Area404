@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
   #panel, #flip {
-    color: white;
+      color: white;
       padding: 5px;
       text-align: center;
       font-weight: bold;
@@ -70,10 +70,10 @@ main{
     font-family: 'Montserrat', sans-serif;
     color:black;
     border: solid;
-    border-color: red;
+    border-color:red;
     border-width: 0.3rem;
     padding: 0.6rem;
-    margin: 0.5rem;
+    margin: 0.5rem; 
     
   }
   button {
@@ -87,7 +87,7 @@ main{
     border-color: red;
     border-width: 0.3rem;
     padding: 0.6rem;
-    margin: 0.5rem;
+    margin: 0.5rem; 
   }
   .btn:hover{
     width: 200px;
@@ -97,10 +97,10 @@ main{
     font-family: 'Montserrat', sans-serif;
     color:white;
     border: solid;
-    border-color:white;
+    border-color:red;
     border-width: 0.3rem;
     padding: 0.6rem;
-    margin: 0.5rem;
+    margin: 0.5rem; 
   }
 
 #symbol {
@@ -139,7 +139,7 @@ main{
   line-height: 100%;
 }
 .iframe {
- ;
+ 
  overflow: hidden;
 }
 .resInsta{
@@ -158,6 +158,42 @@ hr {
     border-color: black;
     border-width: 3px;
   } 
+
+.menu{
+  
+  display: inline-block;
+  border-color: red;
+  margin:0px;
+  margin-right: 0px;
+  color:white; 
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.book{
+  
+  display: inline-block;
+  border-color: red;
+  margin-left: 0px;
+  color:white; 
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.menu:hover{
+  
+  display: inline-block;
+  border-color: red;
+  margin:0px;
+  color:white; 
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.book:hover{
+  box-shadow: none;
+  color:white; 
+  border-color: red;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
 
 #left {
@@ -238,4 +274,31 @@ footer {
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+
+
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus, 
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus, 
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    font-size: 16px;
+    outline-color: transparent;
+    outline-width: 0;
+    outline-style: none;
+    box-shadow:red;
 }
