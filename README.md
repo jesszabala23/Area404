@@ -23,8 +23,6 @@ Placeholder: Insert brief personal bio
 Placeholder: Insert brief personal bio
 
 
----
-
 ## Deliverables
   - Link to [master repository for the project on GitHub](https://github.com/jesszabala23/Area404)
   - Link to [website deployed through GitHub pages](https://jesszabala23.github.io/Area404/)
