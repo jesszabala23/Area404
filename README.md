@@ -40,3 +40,13 @@ Placeholder: Insert brief personal bio
   - A project scope including your website’s purpose and page details
 
 ## Breakdown of Responsibilities and Ownership
+#### [Harsha Javle](https://github.com/hjavle)
+
+
+#### [Nia Smith](https://github.com/niasmith)
+
+
+#### [Nia Van Buren](https://github.com/nvansturgill)
+
+
+#### [Jessica Zabala](https://github.com/jesszabala23)
