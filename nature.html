@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nature.css">
+    <title>Area 404-Nature Preserves</title>
+</head>
+<body>
+    <!-- <header> -->
+        <header>
+          <!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+    
+    <div id="flip"> Special Covid-19 Message click here.</div>
+    <div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+<!-- Header -->
+            <!-- NAVBAR START -->
+            <nav class="navbar navbar-inverse" style="background-color: white">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="index.html">
+                            <img alt="Area404 logo" src="images/404logo-white.png" width="180px">
+                        </a>
+            <!-- Collapse Button -->       
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>      
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar" >
+                    <ul class="nav navbar-nav">
+                        <br>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="foodanddrinnk.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                            Food & Drinks
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">404 Top 10</a><br>
+                            <a class="dropdown-item" href="#">Family Friendly</a><br>
+                            <a class="dropdown-item" href="#">Date Night</a>
+                            </div>
+                        </li>
+                        <li class="active"></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                            Attractions
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="nature.html" target="_blank">Nature Preserves</a><br>
+                            <a class="dropdown-item" href="family-fun.html" target="_blank">Family Fun</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <!-- LOGIN -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
+                <!-- NAVBAR ENDS -->
+
+                <section class="nature-description">
+                         <h1> How to find your zen.</h1>
+                        <p>The hustle and bustle of the work week can be a real stressor on your day to day life. Why not take a break surrounded by nature.
+                The team here at Area404 have compiled a list of nature walks, trails and hikes, in the city and its surrounding area you, friends 
+                and family can enjoy together or a part *cough, cough, social distancing* </p>
+
+                <p><b>Click the photos below to find places to visit on your day off!</b></p>
+            </section>
+            <br>
+            <br>
+            <section class="nature">
+                <div class="row responsive">
+                    <div class="col-sm-4 river">
+                      <a href="https://www.atlantamagazine.com/atlanta-parks/find-a-moment-of-zen-at-these-5-atlanta-nature-preserves/" target="_blank">
+                        <img src="images/river in nature.jpg" class="img-responsive" alt="river running though a forest"></a>
+                        <p>Find your zen with the help of this article from Atlanta Magazine.</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="https://www.atlantatrails.com/georgia-hiking-trail-finder/" target="_blank">
+                      <img src="images/fort-mountain-credit-marlon-seifert-mrlnsfrt.jpg" class="img-responsive" alt="Hiker looking out that the view"> </a>
+                     <p>Click the photo above to find great hiking and camping sites around Georgia at Atlanta Trails.</p>
+                    </div>
+                    <div class="col-sm-4">
+                     <a href="https://www.atlantamagazine.com/travel/nature-escapes-hour-downtown-atlanta/" target="_blank">
+                    <img src="images/blue-ridge-parkway-asheville-nc.jpg" class="img-responsive" alt="road going through the forest"></a>
+                    <p>Click the photo above to find 8 nature escapes only an hour away from the city.</p>
+                    </div>
+                  </div>
+                </div>
+            </section>
+    </header>
+    <section> 
+        <button class="attractionBtn">
+          <a href="attraction.html" target="_blank">click here to go back to Attractions</a>
+        </button>
+    </section>
+
+    <!-- Jscript -->
+    <script> 
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+        
+      });  
+  
+  // Script for the up button When the user scrolls down 20px from the top of the document, show the button
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+  
+  
+  </script>
+    <!-- FOOTER -->
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-3 quicklinks">
+              <h4>Quicklinks</h4>
+              <h6><a href="https://www.citypass.com/atlanta?mv_source=atlantacvb&campaign=main-citypass" style="color: white;" target="_blank">Citypass Atlanta</a></h6>
+              <h6><a href="https://www.piedmontpark.org/venue-rentals/" style="color: white;"target="_blank">Park Venus</a></h6>
+              <h6><a href="https://atltransit.ga.gov/system-maps/#marta" style="color: white;"target="_blank">Transportation Maps</a></h6>
+              <h6><a href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" style="color: white;"target ="_blank">Explore Atlanta</a></h6>
+              <h6><a href="https://atlantafoodwalks.com/" style="color: white;" target="_blank">Atlanta Food Walks</a></h6>
+              <h6><a href="https://biketoursatl.com/" style="color: white;" target="_blank">Bike Tours</a></h6>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-3 legal">
+              <h4>Legal</h4>
+              <h6><a href="" style="color: white;">Privacy Policy</a></h6>
+              <h6><a href="" style="color: white;">Terms & Agreements</a></h6>
+              <h6><a href="" style="color: white;">Site Map</a></h6>
+            </div>
+
+            <!-- social logs not visible -->
+            <!-- <div class="col-xs-6 col-sm-6 col-lg-3 social">
+              <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
+              <a href="https://www.facebook.com"><img src="assets/images/FBlogo.png" alt="facebook link" style="width:30px;height:30px;"></a>
+              <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:30px;height:30px;"></a>
+              <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:30px;height:30px;"></a>
+              <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="youtube link" style="width:30px;height:30px;"></a>
+              <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:30px;height:30px;"></a>
+            </div> -->
+
+            <div class="col-xs-6 col-sm-6 col-lg-3 social">
+                <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
+                  <a href="https://www.facebook.com"><img src="assets/images/FBlogo.png" alt="facebook link" style="width:30px;height:30px;"></a>
+                  <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:30px;height:30px;"></a>
+                  <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:30px;height:30px;"></a>
+                  <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="youtube link" style="width:30px;height:30px;"></a>
+                  <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:30px;height:30px;"></a>
+              </div>
+              
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-lg-4"></div>
+          <div class="col-xs-6 col-sm-6 col-lg-4">Copyright © 2020</div>
+          <div class="col-xs-6 col-sm-6 col-lg-4"></div>
+      </div>
+    </div>
+      </footer>
+</body>
+</html>
