@@ -1,0 +1,330 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+/*ALERT*/
+#panel, #flip {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+  border: solid 1px white;
+  font-size: 12px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-menu {
+    background-color: red;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.dropdown-item {
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    background-color: whitesmoke;
+    color:black;
+    padding: 10px;
+}
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: auto;
+   /* min-width: 100%;
+    min-height: 100%;*/
+  }
+  
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    padding: 30px;
+    font-size: 20px;
+    margin-block-end: 30px;
+  }
+  .btn-group{
+    margin-right:30px;
+    margin-left:30px;
+    scroll-behavior: auto;
+
+  }
+
+  .btn {
+    width: 200px;
+    height: 60;
+    font-size: 15px;
+    background-color:white;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    border: solid;
+    border-color:red;
+    border-width: 0.3rem;
+    padding: 0.6rem;
+    margin: 0.5rem; 
+    
+  }
+  button {
+    width: 200px;
+    height: 60;
+    font-size: 15px;
+    background-color:red;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    border: solid;
+    border-color: red;
+    border-width: 0.3rem;
+    padding: 0.6rem;
+    margin: 0.5rem; 
+    outline-color: transparent;
+    outline-width: 0;
+    outline-style: none;
+    box-shadow:red; 
+  }
+  .btn:hover{
+    width: 200px;
+    height: 60;
+    font-size: 15px;
+    background-color:red;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    border: solid;
+    border-color:red;
+    border-width: 0.3rem;
+    padding: 0.6rem;
+    margin: 0.5rem; 
+   outline-color: transparent;
+    outline-width: 0;
+    outline-style: none;
+    box-shadow:red; 
+  }
+
+#symbol {
+    color:red;
+   /* border-style: solid;
+    border-color: red; */   
+    font-weight: 700px;
+    text-align: center;
+    font-size: 10vw;
+    line-height: 100%;
+    
+}
+#resPress{
+  
+  position: relative;
+}
+/*
+#symbol, .resName {
+  display: inline-block;
+} */
+.abtRest{
+  margin-top:30px;
+}
+.info  {
+  font-size: 1.5rem;
+  text-align: center;
+  color:black;
+  border-color: black;
+  border-style: solid;
+  background-color:whitesmoke;
+}
+.resName{ 
+  font-weight: 700px;
+  text-align: center;
+  font-size: 5vw;
+  line-height: 100%;
+}
+.iframe {
+ 
+ overflow: hidden;
+}
+.resInsta{
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.address {
+  display: inline-block;
+}
+hr { 
+    display: solid;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  /*  margin-left: auto;
+    margin-right: auto; */
+    border-color: black;
+    border-width: 3px;
+  } 
+
+.info > .btn.menu {
+  text-decoration: none;
+  background-color: red;
+  display: inline-block;
+  border-color: red;
+  margin:0px;
+  margin-right: 0px;
+  color:white; 
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.info > .btn.book{
+  text-decoration: none;
+  background-color: red;
+  display: inline-block;
+  border-color: red;
+  margin-left: 0px;
+  color:white; 
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/*.menu.btn:visited
+.menu.btn:hover
+.menu.btn:active
+a.menu:visited
+a.menu:hover
+a.menu:active
+{
+  text-decoration: none;
+  color:white !important;
+  outline-color: transparent;
+  outline-width: 0;
+  outline-style: none !important;  
+  display: inline-block;
+  border-color: red;
+  margin:0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+} 
+.info > .btn.book:hover{
+  
+  box-shadow: none;
+  color:white; 
+  border-color: red;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}*/
+
+
+#left {
+    
+    float: left;
+    width: 33.3%;
+  }
+  
+  #middle {
+    
+    float: left;
+    width: 33.3%;
+  }
+  
+  #right {
+    
+    float: left;
+    width: 33.3%;
+  }
+  .instagram-media{
+    text-align: left;
+    width: 50%;
+    height: 600;
+    margin-left:0;
+    margin-right: 0;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: solid; 
+    border-color: white;/* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(56, 7, 7); /* Add a dark-grey background on hover */
+  }
+  
+  @media only screen and (min-width: 100px) and (max-width: 768px){
+    #myBtn{
+      
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      left: 50px; 
+    }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 479px){
+    #myBtn{
+      position: relative;
+      bottom: 20px; /* Place the button at the bottom of the page */
+      left: 50px; 
+    }
+  }
+footer {
+    margin-top: 10px;
+    background-color: red;
+    padding: 20px 250px 200px 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  .instagramWrapper {
+    padding-bottom: 10%;
+  }
+  
+
+.instagramWrapper iframe,
+.instagramWrapper object,
+.instagramWrapper embed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus, 
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus, 
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    font-size: 16px;
+    outline-color: transparent;
+    outline-width: 0;
+    outline-style: none;
+    box-shadow:red;
+} */
