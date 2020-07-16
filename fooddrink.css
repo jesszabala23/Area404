@@ -42,8 +42,6 @@ main{
     bottom: 0;
     max-width: 100%;
     height: auto;
-   /* min-width: 100%;
-    min-height: 100%;*/
   }
   
   div.sticky {
@@ -113,8 +111,6 @@ main{
 
 #symbol {
     color:red;
-   /* border-style: solid;
-    border-color: red; */   
     font-weight: 700px;
     text-align: center;
     font-size: 10vw;
@@ -125,10 +121,6 @@ main{
   
   position: relative;
 }
-/*
-#symbol, .resName {
-  display: inline-block;
-} */
 .abtRest{
   margin-top:30px;
 }
@@ -165,8 +157,6 @@ hr {
     display: solid;
     margin-top: 3em;
     margin-bottom: 3em;
-  /*  margin-left: auto;
-    margin-right: auto; */
     border-color: black;
     border-width: 3px;
   } 
@@ -192,34 +182,6 @@ hr {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-/*.menu.btn:visited
-.menu.btn:hover
-.menu.btn:active
-a.menu:visited
-a.menu:hover
-a.menu:active
-{
-  text-decoration: none;
-  color:white !important;
-  outline-color: transparent;
-  outline-width: 0;
-  outline-style: none !important;  
-  display: inline-block;
-  border-color: red;
-  margin:0px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-} 
-.info > .btn.book:hover{
-  
-  box-shadow: none;
-  color:white; 
-  border-color: red;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}*/
-
-
 #left {
     
     float: left;
@@ -245,38 +207,38 @@ a.menu:active
     margin-right: 0;
   }
   #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
     border: solid; 
-    border-color: white;/* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    border-color: white;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 18px;
   }
   
   #myBtn:hover {
-    background-color: rgb(56, 7, 7); /* Add a dark-grey background on hover */
+    background-color: rgb(56, 7, 7);
   }
   
   @media only screen and (min-width: 100px) and (max-width: 768px){
     #myBtn{
       
-      position: fixed; /* Fixed/sticky position */
-      bottom: 20px; /* Place the button at the bottom of the page */
+      position: fixed;
+      bottom: 20px;
       left: 50px; 
     }
   }
   @media only screen and (min-width: 320px) and (max-width: 479px){
     #myBtn{
       position: relative;
-      bottom: 20px; /* Place the button at the bottom of the page */
+      bottom: 20px;
       left: 50px; 
     }
   }
@@ -299,30 +261,3 @@ footer {
   width: 100%;
   height: 100%;
 }
-
-
-/*
-a.active.focus,
-a.active:focus,
-a.focus,
-a:active.focus,
-a:active:focus,
-a:focus, 
-button.active.focus,
-button.active:focus,
-button.focus,
-button:active.focus,
-button:active:focus,
-button:focus, 
-.btn.active.focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn:active:focus,
-.btn:focus {
-    font-size: 16px;
-    outline-color: transparent;
-    outline-width: 0;
-    outline-style: none;
-    box-shadow:red;
-} */
