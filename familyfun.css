@@ -113,10 +113,16 @@
   
 }
 
- /* FOOTER*/
-  footer{
-    background-color: red;
-    color: white;
-    padding: 50px;
-    font-size: 15px;
-  }
+/*FOOTER*/
+footer {
+  background-color: red;
+  padding: 20px 250px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  align-content: center;
+}
+
+.copy {
+font-size: 12px;
+text-align: center;
+}
