@@ -85,6 +85,27 @@ img{
     margin-bottom: 20px;
 }
 
+/* Attractions button */
+.attractionsBtn{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin-left: 20px;
+}
+
+.attractionsBtn a{
+  text-decoration: none;
+}
+
+
+.attractionsBtn:hover{
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+  transition: all .4s;
+  text-decoration: none;
+}
+
 footer {
     background-color: red;
     color: white;

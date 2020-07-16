@@ -91,72 +91,29 @@
 }
 
 
-
-/* PARK PHOTO */
-/* @media (max-width:767px) {
-  .park img {
-      max-width: 100%;
-      max-height: 100%;
-  }
-}
-
-@media (min-width:768px) {
-  .park img {
-      max-width: 240px;
-      max-height: 240px;
-  }
-}
-
-@media (min-width:992px) {
-  .park img {
-      max-width: 314px;
-      max-height: 314px;
-  }
-}
-
-@media (min-width:1200px) {
-  .park img {
-      max-width: 380px;
-      max-height: 380px;
-  }
-} */
-
-/* EVENT PHOTO */
-/* @media (max-width:767px) {
-  .events-pic img {
-      max-width: 100%;
-      max-height: 100%;
-  }
-}
-
-@media (min-width:768px) {
-  .events-pic img {
-      max-width: 240px;
-      max-height: 240px;
-  }
-}
-
-@media (min-width:992px) {
-  .events-pic img {
-      max-width: 314px;
-      max-height: 314px;
-  }
-}
-
-@media (min-width:1200px) {
-  .events-pic img {
-      max-width: 380px;
-      max-height: 380px;
-  }
-} */
-
 /* Attractions button */
 .attractionsBtn{
- margin: 10px;
- background-color: lightgray;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
-  /* Add a gray background color and some padding to the footer */
+.attractionsBtn a{
+  text-decoration: none;
+}
+
+.attractionsBtn:hover{
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+  transition: all .4s;
+  
+}
+
+ /* FOOTER*/
   footer{
     background-color: red;
     color: white;
