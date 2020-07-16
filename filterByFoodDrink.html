@@ -7,56 +7,60 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="filterByFoodDrink.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </html>
 
 <body>
-<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
-    
-    <div id="flip"> Special Covid-19 Message click here.</div>
-    <div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
-<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
-<!-- Header -->
-<nav class="navbar navbar-inverse" style="background-color: white">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a href="index.html">
-                <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "180px">
-            </a>
-<!-- Collapse Button -->       
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>      
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar" >
-        <ul class="nav navbar-nav">
-            <br><li class="active"><a href="index.html">Home</a></li>
-            <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="fooddrink.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
-                Food & Drinks
-                </a>
-                
-                
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
-                Attractions
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">This weekend</a><br>
-                <a class="dropdown-item" href="#">Nature Perserves</a><br>
-                <a class="dropdown-item" href="#">Family Fun</a>
-                </div>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <br><li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
-        </div>
-    </div>
-    </nav>
+<!-- ALERT -->
+<div id="flip"> Special Covid-19 Message click here.</div>
+<div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
+<!-- NAVIGATION -->
+  <nav class="navbar navbar-inverse" style="background-color: white">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a href="index.html" class="logo">
+              <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "150px">
+          </a>
+
+<!-- DROPDOWN -->       
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>      
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" >
+      <ul class="nav navbar-nav">
+          <br><li class="active"><a href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="fooddrink.html" id="navbarDropdownfoodLink" data-toggle="dropdown">
+              Food & Drinks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" onclick="location.href='#noOne'"href="/fooddrink.html">404 Top 10</a><br>
+                <a class="dropdown-item" onclick="location.href='#noOne'"href="/filterByFoodDrink.html">Filter By</a><br>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownattractLink" data-toggle="dropdown">
+              Attractions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">This weekend</a><br>
+              <a class="dropdown-item" href="#">Nature Perserves</a><br>
+              <a class="dropdown-item" href="#">Family Fun</a>
+              </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+<!--LOG-IN-->
+      <ul class="nav navbar-nav navbar-right">
+          <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      </div>
+  </div>
+  </nav>
 <!----------------------------------------------------Navigation bar------------------------------------------------------------------------------------->   
 <div class="container-fluid" style="text-align:center;">
 <div class= "row">
@@ -138,42 +142,48 @@
 
 <!----------------------------------------------------Navigation bar------------------------------------------------------------------------------------->   
 
+<!--FOOTER-->
 <footer>
-    <div class ="container container-fluid">
-        <div class= "row">
-            <section class="col-lg-4" id="left" style="float: left;">
-                <h3>Quicklinks</h3>
-                <h4><a href="https://www.citypass.com/atlanta?mv_source=atlantacvb&campaign=main-citypass" style="color: white;">Citypass Atlanta</a></h4>
-                <h4><a href="https://www.piedmontpark.org/venue-rentals/" style="color: white;">Park Venus</a></h4>
-                <h4><a href="https://atltransit.ga.gov/system-maps/#marta" style="color: white;">Transportation Maps</a></h4>
-                <h4><a href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" style="color: white;">Explore Atlanta</a></h4>
-                <h4><a href="https://atlantafoodwalks.com/" style="color: white;">Atlanta Food Walks</a></h4>
-                <h4><a href="https://biketoursatl.com/" style="color: white;">Bike Tours</a></h4>
-            </section>
-    
-            <section class="col-lg-4" id="middle" style="float: center;">
-                <h3>Food Links</h3>
-                <h4><a href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1" style="color: white;">Atlanta Food Truck Festivals </a></h4>
-                <h4><a href="https://www.atlanta.net/dining/farmers-markets/" style="color: white;">Atlanta Farmer's Market </a></h4> 
-                <h4><a href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/" style="color: white;">Atlanta Food And Wine Festival </a></h4>        
-                <h4><a href="https://www.atlantamagazine.com/50bestrestaurants/" style="color: white;">Atlanta Magazine </a></h4> 
-            </section>
-
-            <section class="col-lg-4" id="right" style="float: right;">
-                <h3><a href="contact.html" style="color: white;">Contact Us</a></h3>
-                <div class="socialmedia">
-                <a href="https://www.facebook.com"><img src="Assets/images/FBlogo.png" alt="facebook link" style="width:35px;height:35px;"></a>
-                <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:35px;height:35px;"></a>
-                <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:35px;height:35px;"></a>
-                <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="github link" style="width:35px;height:35px;"></a>
-                <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:35px;height:35px;"></a>
-                </div>
-                <h3>Legal</h3>       
-                <p class="copyright"> Website by Creative Tech Bridge Students Copyright © 2020</p>
-            </section>  
-        </div> 
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-lg-3 quicklinks">
+          <h4>Quicklinks</h4>
+          <h6><a href="assets/Other Pages/aquarium.html" style="color: white;">Night at the Aquarium</a></h6>
+          <h6><a href="assets/Other Pages/donut.html" style="color: white;">Top 5 Donut Shops</a></h6>
+          <h6><a href="https://atltransit.ga.gov/system-maps/#marta" style="color: white;">Transportation Maps</a></h6>
+          <h6><a href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" style="color: white;">Explore Atlanta</a></h6>
+          <h6><a href="https://atlantafoodwalks.com/" style="color: white;">Atlanta Food Walks</a></h6>
+          <h6><a href="https://biketoursatl.com/" style="color: white;">Bike Tours</a></h6>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-lg-3 legal">
+            <h4>Restaurant Links</h4>
+            <h6><a href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1" style="color: white;">Food Truck Festivals </a></h6>
+            <h6><a href="https://www.atlanta.net/dining/farmers-markets/" style="color: white;">Farmer's Market </a></h6> 
+            <h6><a href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/" style="color: white;">Food & Wine Festival </a></h6>        
+            <h6><a href="https://www.atlantamagazine.com/50bestrestaurants/" style="color: white;">Atlanta Magazine </a></h6> 
+        </div>
+        <div class="col-xs-6 col-sm-6 col-lg-3 social">
+            <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
+            <a href="https://www.facebook.com"><img src="assets/images/FBlogo.png" alt="facebook link" style="width:30px;height:30px;"></a>
+            <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:30px;height:30px;"></a>
+            <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:30px;height:30px;"></a>
+            <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="youtube link" style="width:30px;height:30px;"></a>
+            <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:30px;height:30px;"></a>
+            <br><br>
+            <h4>Legal</h4>
+            <h6><a href="" style="color: white;">Privacy Policy</a></h6>
+            <h6><a href="" style="color: white;">Terms & Agreements</a></h6>
+            <h6><a href="" style="color: white;">Site Map</a></h6>
+        </div>
     </div>
-           
-    </footer>
+
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-lg-3"></div>
+      <div class="col-xs-6 col-sm-6 col-lg-3 copy"><br><br>Website by Creative Tech Bridge Students<br>Copyright © 2020</div>
+      <div class="col-xs-6 col-sm-6 col-lg-3"></div>
+  </div>
+</div>
+
+</footer>
 
 </html>
