@@ -146,6 +146,17 @@ footer {
   font-size: 12px;
 }
 
+/*Nature Page*/
+.nature-description h1{
+  text-align: center;
+} 
+
+.nature p {
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+
 /*CAROUSEL*/
 
 .carousel-inner img {
