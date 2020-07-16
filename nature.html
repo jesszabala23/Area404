@@ -12,9 +12,15 @@
     <title>Area 404-Nature Preserves</title>
 </head>
 <body>
-    <header>
+    <!-- <header> -->
         <header>
-            <!-- NABAR START -->
+          <!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+    
+    <div id="flip"> Special Covid-19 Message click here.</div>
+    <div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+<!-- Header -->
+            <!-- NAVBAR START -->
             <nav class="navbar navbar-inverse" style="background-color: white">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -54,8 +60,9 @@
                         </li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
+                    <!-- LOGIN -->
                     <ul class="nav navbar-nav navbar-right">
-                        <br><li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
                     </div>
                 </div>
@@ -99,6 +106,35 @@
         </button>
     </section>
 
+    <!-- Jscript -->
+    <script> 
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+        
+      });  
+  
+  // Script for the up button When the user scrolls down 20px from the top of the document, show the button
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+  
+  
+  </script>
     <!-- FOOTER -->
     <footer class="container-fluid text-center">
         <div class="row">

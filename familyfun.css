@@ -1,6 +1,15 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+#panel, #flip {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+  border: solid 1px white;
+}
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -60,9 +69,14 @@
 
 
 .family-fun{
-    text-align: left;
-    
+    text-align: left; 
 }
+
+.family-fun h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .family-fun p{
   margin-left: 20px;
 }

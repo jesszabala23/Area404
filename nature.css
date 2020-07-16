@@ -2,6 +2,15 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+#panel, #flip {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+  border: solid 1px white;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -59,7 +68,7 @@ ul .nav .navbar-nav .navbar-right{
   background-size: cover;
 }
   
-.nature-description{
+.nature-description h1{
   text-align: center;
 } 
 
