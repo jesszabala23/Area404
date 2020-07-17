@@ -83,9 +83,28 @@
 
 }
 
+/*FOOTER*/
 footer {
+  margin-bottom: 20px,; 
+  margin-top: 20px;
+  background-color: red;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  }
+
+  .linkhdr{
+    display: inline-block;
+    font-size: 1.5em;
+    margin-bottom: 15px;
     background-color: red;
-    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  .links> p {
+    text-align: left;    
+    font-size: 1em;
+    margin-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
     color: white;
   }
@@ -93,13 +112,14 @@ footer {
     footer {
       width: 100%;
       margin-top: 0;
-      margin: 0;
-      padding: 0;
+      
     }
   }
   @media screen and (max-width: 320px) {
     #left, #middle, #right {
     float: left;
     margin:0;
+    margin:0;
+    padding-bottom: 20px;
     }
   }
