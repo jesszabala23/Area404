@@ -2,7 +2,7 @@
 * {
 }
 body {
-  background-color: linen;
+  background-color: white;
 }
 h1,
 h2,
@@ -10,6 +10,9 @@ h3,
 h4,
 h5 {
   font-family: "Source Serif Pro", serif;
+}
+main {
+  margin-top: 3rem;
 }
 h6,
 p {
@@ -23,14 +26,20 @@ nav {
 
 /* FOOTER STYLES */
 #footer {
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  background-color: darkred;
+  /* position: fixed;
+  bottom: 0; */
+  display: inline-flex;
+  background-color: #880a0a;
   width: 100vw;
   color: white;
   padding-right: inherit;
   padding-left: inherit;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.row {
+  width: 100vw;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 50px;
 }

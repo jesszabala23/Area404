@@ -23,8 +23,8 @@
     <title>About Our Team</title>
   </head>
 
-  <body class="container-fluid">
-    <!-- NAVIGATION -->
+  <body class="">
+    <!-- TEST NAV -->
     <nav class="row">
       <!-- LOGO -->
       <div class="col"></div>
@@ -38,12 +38,100 @@
       <div class="col"></div>
     </nav>
 
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-inverse" style="background-color: white;">
+      <div class="container-fluid">
+        <!--  RIGHT LOGO -->
+        <div class="navbar-header">
+          <a href="index.html" class="logo">
+            <img
+              alt="Area404 logo"
+              src="assets/images/404logo-white.png"
+              width="150px"
+            />
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <br />
+            <li class="active"><a href="index.html">Home</a></li>
+            <!-- FOOD & DRINKS -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="foodanddrinnk.html"
+                id="navbarDropdownfoodLink"
+                data-toggle="dropdown"
+              >
+                Food & Drinks
+              </a>
+              <!-- FOOD & DRINK DROPDOWN -->
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">404 Top 10</a><br />
+                <a class="dropdown-item" href="#">Family Friendly</a><br />
+                <a class="dropdown-item" href="#">Date Night</a>
+              </div>
+            </li>
+            <!-- ATTRACTIONS -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="attraction.html"
+                id="navbarDropdownattractLink"
+                data-toggle="dropdown"
+              >
+                Attractions
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">This weekend</a><br />
+                <a class="dropdown-item" href="#">Nature Perserves</a><br />
+                <a class="dropdown-item" href="#">Family Fun</a>
+              </div>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <!--LOG-IN-->
+          <ul class="nav navbar-nav navbar-right">
+            <br />
+            <li>
+              <a href="assets/Login_v12/index.html"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVIGATION -->
     <!-- MAIN CONTENT AREA -->
-    <main class="">
-      <section class="intro">
+    <main class="container">
+      <section class="">
         <h1>About Our Team</h1>
-        <section class="row"></section>
+        <h3 id="intro">
+          Welcome to Area404, a curated directory of interesting places and
+          events throughout Metro Atlanta's.
+        </h3>
+        <p>
+          This site was created by Harsha Javle, Nia Smith, Nia Van Buren, and
+          Jessica Zabala as an exercise in the application of Frontend web
+          development fundamentals for the Techbridge Technology Career Program
+          (TCP) in partnership with Goodwill of North Georgia.
+        </p>
       </section>
+      <!-- <section class="row"></section> -->
       <section class="bios">
         <div class="row" id="harsha"></div>
         <div class="row" id="nias"></div>
@@ -53,115 +141,117 @@
     </main>
 
     <!-- FOOTER -->
-    <footer id="footer" class="row">
-      <!-- QUICKLINKS -->
-      <div class="col quicklinks">
-        <h4>Quicklinks</h4>
-        <h6>
-          <a href="assets/Other Pages/aquarium.html" style="color: white;"
-            >Night at the Aquarium</a
-          >
-        </h6>
-        <h6>
-          <a href="assets/Other Pages/donut.html" style="color: white;"
-            >Top 5 Donut Shops</a
-          >
-        </h6>
-        <h6>
-          <a
-            href="https://atltransit.ga.gov/system-maps/#marta"
-            style="color: white;"
-            >Transportation Maps</a
-          >
-        </h6>
-        <h6>
-          <a
-            href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640"
-            style="color: white;"
-            >Explore Atlanta</a
-          >
-        </h6>
-        <h6>
-          <a href="https://atlantafoodwalks.com/" style="color: white;"
-            >Atlanta Food Walks</a
-          >
-        </h6>
-        <h6>
-          <a href="https://biketoursatl.com/" style="color: white;"
-            >Bike Tours</a
-          >
-        </h6>
-      </div>
-      <!-- RESTAURANT LINKS -->
-      <div class="col">
-        <h4>Restaurant Links</h4>
-        <h6>
-          <a
-            href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1"
-            style="color: white;"
-            >Food Truck Festivals
-          </a>
-        </h6>
-        <h6>
-          <a
-            href="https://www.atlanta.net/dining/farmers-markets/"
-            style="color: white;"
-            >Farmer's Market
-          </a>
-        </h6>
-        <h6>
-          <a
-            href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/"
-            style="color: white;"
-            >Food & Wine Festival
-          </a>
-        </h6>
-        <h6>
-          <a
-            href="https://www.atlantamagazine.com/50bestrestaurants/"
-            style="color: white;"
-            >Atlanta Magazine
-          </a>
-        </h6>
-      </div>
-      <!-- SOCIAL AND LEGAL -->
-      <div class="col col-md-4">
-        <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
-        <a href="https://www.facebook.com"
-          ><img
-            src="assets/images/FBlogo.png"
-            alt="facebook link"
-            style="width: 30px; height: 30px;"
-        /></a>
-        <a href="https://www.twitter.com"
-          ><img
-            src="assets/images/Twitterlogo.png"
-            alt="linkedin link"
-            style="width: 30px; height: 30px;"
-        /></a>
-        <a href="https://www.instagram.com"
-          ><img
-            src="assets/images/IGlogo.png"
-            alt="instagram link"
-            style="width: 30px; height: 30px;"
-        /></a>
-        <a href="https://www.youtub.com"
-          ><img
-            src="assets/images/YTlogo.png"
-            alt="youtube link"
-            style="width: 30px; height: 30px;"
-        /></a>
-        <a href="#"
-          ><img
-            src="assets/images/Subcribelogo.png"
-            alt="github link"
-            style="width: 30px; height: 30px;"
-        /></a>
-        <br /><br />
-        <h4>Legal</h4>
-        <h6><a href="" style="color: white;">Privacy Policy</a></h6>
-        <h6><a href="" style="color: white;">Terms & Agreements</a></h6>
-        <h6><a href="" style="color: white;">Site Map</a></h6>
+    <footer id="footer" class="container-fluid">
+      <div class="row">
+        <!-- QUICKLINKS -->
+        <div class="col-lg quicklinks">
+          <h4>Quicklinks</h4>
+          <h6>
+            <a href="assets/Other Pages/aquarium.html" style="color: white;"
+              >Night at the Aquarium</a
+            >
+          </h6>
+          <h6>
+            <a href="assets/Other Pages/donut.html" style="color: white;"
+              >Top 5 Donut Shops</a
+            >
+          </h6>
+          <h6>
+            <a
+              href="https://atltransit.ga.gov/system-maps/#marta"
+              style="color: white;"
+              >Transportation Maps</a
+            >
+          </h6>
+          <h6>
+            <a
+              href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640"
+              style="color: white;"
+              >Explore Atlanta</a
+            >
+          </h6>
+          <h6>
+            <a href="https://atlantafoodwalks.com/" style="color: white;"
+              >Atlanta Food Walks</a
+            >
+          </h6>
+          <h6>
+            <a href="https://biketoursatl.com/" style="color: white;"
+              >Bike Tours</a
+            >
+          </h6>
+        </div>
+        <!-- RESTAURANT LINKS -->
+        <div class="col-lg">
+          <h4>Restaurant Links</h4>
+          <h6>
+            <a
+              href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1"
+              style="color: white;"
+              >Food Truck Festivals
+            </a>
+          </h6>
+          <h6>
+            <a
+              href="https://www.atlanta.net/dining/farmers-markets/"
+              style="color: white;"
+              >Farmer's Market
+            </a>
+          </h6>
+          <h6>
+            <a
+              href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/"
+              style="color: white;"
+              >Food & Wine Festival
+            </a>
+          </h6>
+          <h6>
+            <a
+              href="https://www.atlantamagazine.com/50bestrestaurants/"
+              style="color: white;"
+              >Atlanta Magazine
+            </a>
+          </h6>
+        </div>
+        <!-- SOCIAL AND LEGAL -->
+        <div class="col-lg">
+          <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
+          <a href="https://www.facebook.com"
+            ><img
+              src="assets/images/FBlogo.png"
+              alt="facebook link"
+              style="width: 30px; height: 30px;"
+          /></a>
+          <a href="https://www.twitter.com"
+            ><img
+              src="assets/images/Twitterlogo.png"
+              alt="linkedin link"
+              style="width: 30px; height: 30px;"
+          /></a>
+          <a href="https://www.instagram.com"
+            ><img
+              src="assets/images/IGlogo.png"
+              alt="instagram link"
+              style="width: 30px; height: 30px;"
+          /></a>
+          <a href="https://www.youtub.com"
+            ><img
+              src="assets/images/YTlogo.png"
+              alt="youtube link"
+              style="width: 30px; height: 30px;"
+          /></a>
+          <a href="#"
+            ><img
+              src="assets/images/Subcribelogo.png"
+              alt="github link"
+              style="width: 30px; height: 30px;"
+          /></a>
+          <br /><br />
+          <h4>Legal</h4>
+          <h6><a href="" style="color: white;">Privacy Policy</a></h6>
+          <h6><a href="" style="color: white;">Terms & Agreements</a></h6>
+          <h6><a href="" style="color: white;">Site Map</a></h6>
+        </div>
       </div>
     </footer>
   </body>
