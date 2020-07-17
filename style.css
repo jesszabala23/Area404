@@ -81,6 +81,11 @@ footer {
     align-content: center;
   }
 
+.copy {
+  font-size: 12px;
+  text-align: center;
+}
+
   /*COUNTDOWN*/
   section {
     margin: auto;
@@ -130,6 +135,27 @@ footer {
   text-align: center;
   align-content: center;
 }
+/*ALERT*/
+#panel, #flip {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+  border: solid 1px white;
+  font-size: 12px;
+}
+
+/*Nature Page*/
+.nature-description h1{
+  text-align: center;
+} 
+
+.nature p {
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
 
 /*CAROUSEL*/
 
