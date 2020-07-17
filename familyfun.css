@@ -24,7 +24,7 @@
   background-size: cover;
 }
 
-
+/* Heading and paragraph */
 .family-fun{
     text-align: left; 
 }
@@ -41,11 +41,13 @@
   margin-left: 20px;
 }
 
-.content{
+/* photos and paragraph between them */
+
+/* .content{
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 
 /* Attractions button */

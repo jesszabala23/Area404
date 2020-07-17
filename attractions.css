@@ -36,6 +36,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .navbar-toggle{
   background-color:#000000;
 }
@@ -82,23 +83,9 @@ footer {
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
+
+ @media (max-width: 600px) {
   .carousel-caption {
     display: none; 
   }
-
-    /* nature preserve page */
-    .col-sm-4{
-      text-align: left;
-      height: 400px;
-      width: 100px;
-  }
-}
-
-.img-responsive{
-  text-align: center;
-  height: 300px;
-  width: 400px;
-  padding: 0 0 0 30px;
-  margin-bottom: 20px;
-}
+} 
