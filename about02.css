@@ -1,0 +1,45 @@
+/* GLOBAL STYLES */
+* {
+}
+body {
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Serif Pro", serif;
+}
+main {
+  margin-top: 3rem;
+}
+h6,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* NAVIGATION STYLES */
+nav {
+  position: sticky;
+}
+
+/* FOOTER STYLES */
+#footer {
+  /* position: fixed;
+  bottom: 0; */
+  display: inline-flex;
+  background-color: #880a0a;
+  /* width: 100%; */
+  color: white;
+  padding-right: inherit;
+  padding-left: inherit;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.row {
+  width: 100vw;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
