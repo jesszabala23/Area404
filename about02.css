@@ -1,0 +1,36 @@
+/* GLOBAL STYLES */
+* {
+}
+body {
+  background-color: linen;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Serif Pro", serif;
+}
+h6,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* NAVIGATION STYLES */
+nav {
+  position: sticky;
+}
+
+/* FOOTER STYLES */
+#footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: darkred;
+  width: 100vw;
+  color: white;
+  padding-right: inherit;
+  padding-left: inherit;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
