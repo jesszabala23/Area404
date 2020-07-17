@@ -85,7 +85,21 @@
 
 footer {
     background-color: red;
-    padding: 20px 250px 200px 250px;
+    padding: 20px;
     font-family: 'Montserrat', sans-serif;
     color: white;
+  }
+  @media screen and (max-width: 320px) {
+    footer {
+      width: 100%;
+      margin-top: 0;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #left, #middle, #right {
+    float: left;
+    margin:0;
+    }
   }
