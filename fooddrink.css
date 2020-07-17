@@ -329,11 +329,14 @@ footer {
   opacity: 0;
   transition: .5s ease;
   background-color: red;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
 }
 
 .wrapper:hover .overlay {
   opacity: 0.7;
-  
 }
 
 .text {
@@ -350,5 +353,4 @@ footer {
 .resName {
   color: white;
   font-size: 15px;
-
 }
