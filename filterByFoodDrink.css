@@ -2,14 +2,16 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+/*ALERT*/
 #panel, #flip {
   color: white;
-    padding: 5px;
-    text-align: center;
-    font-weight: bold;
-    background-color: red;
-    border: solid 1px white;
-  }
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+  border: solid 1px white;
+  font-size: 12px;
+}
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
