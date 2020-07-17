@@ -30,7 +30,7 @@ nav {
   bottom: 0; */
   display: inline-flex;
   background-color: #880a0a;
-  width: 100vw;
+  /* width: 100%; */
   color: white;
   padding-right: inherit;
   padding-left: inherit;
