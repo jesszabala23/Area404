@@ -13,6 +13,10 @@
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
   }
+
+  .navbar-toggle{
+    background-color:#000000;
+  }
 .logo {
     padding-right: 20px;
 }

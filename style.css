@@ -36,6 +36,7 @@
   text-decoration: none;
 }
 
+/* keeps navabr toggle black */
 .navbar-toggle{
   background-color:#000000;
 }

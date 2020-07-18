@@ -41,15 +41,6 @@
   margin-left: 20px;
 }
 
-/* photos and paragraph between them */
-
-/* .content{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-
 /* Attractions button */
 .attractionsBtn{
   border-style: solid;
@@ -72,16 +63,42 @@
   
 }
 
-/*FOOTER*/
 footer {
+  margin-bottom: 20px,; 
+  margin-top: 20px;
   background-color: red;
-  padding: 20px 250px;
+  padding: 20px;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  align-content: center;
-}
+  }
 
-.copy {
-font-size: 12px;
-text-align: center;
-}
+  .linkhdr{
+    display: inline-block;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  .links> p {
+    text-align: left;    
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  @media screen and (max-width: 320px) {
+    footer {
+      width: 100%;
+      
+   
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #left, #middle, #right {
+    font-size: 5px;
+    float: left;
+    margin:0;
+    padding-bottom: 20px;
+    }
+  }
