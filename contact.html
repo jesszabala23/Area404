@@ -7,12 +7,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="contact.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <link rel="stylesheet" type="text/css" href="fooddrink.css">
+
 </head>
 
 <body>
-
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+    
+<div id="flip"> Special Covid-19 Message click here.</div>
+<div id="panel">We are working remotely, due to Covid-19.There might be delay in response time. Stay safe Stay healthy.</div>
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->  
 <!-- NAVIGATION -->
     <nav class="navbar navbar-inverse" style="background-color: white">
     <div class="container-fluid">
@@ -32,12 +38,12 @@
         <ul class="nav navbar-nav">
             <br><li class="active"><a href="index.html">Home</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="fooddrink.html" id="navbarDropdownfoodLink" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle" onclick="fooddrink.html" id="navbarDropdownfoodLink" data-toggle="dropdown">
                 Food & Drinks
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="fooddrink.html">404 Top 10</a><br>
-                <a class="dropdown-item" href="filterByFoodDrink.html">Family Friendly</a><br>
+                <a class="dropdown-item" onclick="fooddrink.html">404 Top 10</a><br>
+                <a class="dropdown-item" onclick="fooddrink.html">Area Favorites</a><br>
                 
                 </div>
             </li>
@@ -88,14 +94,14 @@
       <label for="usr"style="float: left;">Phone Number:</label>
       <input type="text" class="form-control" placeholder="Phone Number" id="usr">
     </div>
- 
+    
     <br>
 
     <div class="input col-xs-12" class="comm">
         <label for="comment" style="float: left;">Comment:</label>
         <textarea class="form-control" rows="6" placeholder="How can we help?" id="comment"></textarea>
     </div>
-
+    <br>
 
     <div class="col checkbox " style="display: inline-block;" style="text-align: center;">
         <label><input type="checkbox" value="">Advertise with Us</label>
@@ -111,10 +117,12 @@
     <input type="submit" value="Submit" style="float: center;">
     </div>
     <br>
-
+    <br>
 </form>
 </div>
 </div> 
+<script src="script.js"></script>
+<script src="assets/Other Pages/main.js"></script>
 </body>
 </html>
 
@@ -125,6 +133,7 @@
 <footer>
     <div class ="container">
         <div class= "row">
+<<<<<<< HEAD
             <div class="col-sm-4" id="left" style="float: left;";>
                 <h4>Quicklinks<h4>
                 <h6><a href="assets/Other Pages/aquarium.html" style="color: white;">Night at the Aquarium</a></h6>

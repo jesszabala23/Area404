@@ -31,21 +31,21 @@ _Your deployed site must include all of the following over at least five HTML pa
 
 ## Breakdown of Responsibilities and Ownership
 
-#### [Harsha Javle](https://github.com/hjavle)
+### [Harsha Javle](https://github.com/hjavle)
 
-[**Food and Drink Highlights Section**](fooddrink.html) showcasing curated dining destination across Metro Atlanta
+[_Food and Drink Highlights Section_](fooddrink.html) showcasing curated dining destination across Metro Atlanta
 
-#### [Nia Smith](https://github.com/niasmith)
+### [Nia Smith](https://github.com/niasmith)
 
-[**Attractions Highlights Section**](attractions.html) showcasing curated things to do throughout Metro Atlanta
+[_Attractions Highlights Section_](attractions.html) showcasing curated things to do throughout Metro Atlanta
 
-#### [Nia Van Buren](https://github.com/nvansturgill)
+### [Nia Van Buren](https://github.com/nvansturgill)
 
 README Scope Documentation  
 [_About Our Team_](about.html) page introducing the Area404 family with brief bio sections
 
-#### [Jessica Zabala](https://github.com/jesszabala23)
+### [Jessica Zabala](https://github.com/jesszabala23)
 
 [_Homepage_](index.html) serving as a central point of navigation for the site including featured articles (Night at the Aquarium and Donut Shop Highlight)
 
-[**JavaScript Login Feature**](assets/Other Pages/donut.html)
+[_JavaScript Login Feature_](https://jesszabala23.github.io/Area404/assets/Login_v12/index.html)
