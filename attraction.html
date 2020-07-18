@@ -55,6 +55,7 @@
                   <a class="dropdown-item" href="family-fun.html">Family Fun</a>
                 </div>
           </li>
+          <li><a href="about.html">Our Team</a></li>
           <li><a href="contact.html">Contact</a></li>
       </ul>
 
@@ -63,11 +64,12 @@
           <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
       </div>
+      <!-- <p class="4r3a 4oA"</p> -->
   </div>
   </nav>
           </header>
             <!-- Carousel -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -80,27 +82,27 @@
                   <div class="item active">
                   <a href="https://www.atlantaconcerts.net/" target="_blank">
                    <img src="images/mercedes benz stadium.jpg" class="background-image" alt="Mercedes-Benz Stadium">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carFest">
                     </a>
                       <h3>Upcoming Concerts</h3>
-                      <p>Get ready for these amazing concert series this summer</p>
+                      <p>Get ready for these amazing concert series coming soon!</p>
                     </div>      
                   </div>
             
                   <div class="item">
                     <a href="https://www.gafollowers.com/10-best-spots-pictures-atlanta/" target="_blank">
                     <img src="images/atlanta_2.jpg" style="width:100%" alt="view of Downtown Atlanta and Olympic flame">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carView">
                       </a>
-                      <h3>Best ATL Views</h3>
+                      <h3>Bring out your inner photographer out</h3>
                       <p>Best places to enjoy and photograph Atlanta</p>
                     </div>      
-                  </div>
+          </div>
             
                   <div class="item brunch">
                     <a href="https://www.thrillist.com/drink/atlanta/best-brunch-in-atlanta" target="_blank">
                     <img src="images/brunching.jpg" style="width:100%" alt="people eating brunch"></a>
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carDate">
                       <h3>Best Brunch Places in Town</h3>
                       <p>Grab your mask because this weekend we are heading to brunch!</p>
                      
@@ -115,43 +117,41 @@
                 </a>
                 <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  
                   <span class="sr-only">Next</span>
                 </a>
             </div>
-              
-            <section class="container text-center">    
-              <h3>What We Do</h3><br>
-              <div class="row ">
-                <div class="col-sm-4 park">
-                  <a href="nature.html" target="_blank">
-                  <img src="images/cascade-springs.jpg" class="img-responsive" alt="Cascade Springs">
-                  </a>
-                  <p>Nature Preserves</p>
-                </div>
+              <!-- CLICKABLE PHOTOS -->
+              <section>
+                  <div class="container text-center">    
+                       <h3>What To Do</h3><br>
+                          <div class="row">
+                            <div class="col-sm-4 park">
+                               <a href="nature.html">
+                                  <img src="images/cascade-springs.jpg" class="img-responsive" style="width: 100%;"  alt="Cascade Springs">
+                                 </a>
+                                    <p>Nature Preserves</p>
+                               </div>
 
-                <div class="col"></div>
+                              <div class="col-sm-4">
+                                <blockquote>
+                                  <p>Area 404's Attractions page will assist you in finding all the fun activities to do in and around Atlanta. 
+                                   Click the photos on either side of this paragraph to lead you to more ATL adventures!
+                                  </p>
+                                </blockquote>
+                               </div>
 
-                <div class="col-sm-4 kids"> 
-                  <a href="family-fun.html" target="_blank">
-                  <img src="images/kids playing.jpg" class="img-responsive" alt="kids running in a park">
-                  </a>
-                  <p>Kids get in for free this weekend</p>    
-                </div>
-
-                <div class="row">
-                      <div class="col-sm-4">
-                        <div class="well">
-                          <a href="contact.html" class="adButton" style="text-decoration: none;">Advertise With Us</a>
-                         </div>
-                         <div class="well">
-                          <a href="contact.html" class="subButton" style="text-decoration: none;">Subcribe to our Newsletter</a>
-                         </div>
-                    </div>
-                </div>
-              </div>
-            </section><br>
+                              <div class="col-sm-4 kids"> 
+                                <a href="family-fun.html">
+                                  <img src="images/kids playing.jpg" class="img-responsive" style="width:100%"  alt="kids running in a park">
+                                </a>
+                                 <p>Kids get in for free this weekend</p>    
+                               </div>
+                           </div>
+                   </div>
+              </section>                       
             
-             <!-- Jscript -->
+<!-- Jscript -->
     <script> 
       $(document).ready(function(){
         $("#flip").click(function(){
@@ -177,11 +177,9 @@
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
-  
-  
   </script>
  <!--FOOTER-->
-<footer>
+<footer class="container-fluid">
   <div class="container">
   <div class="row">
       <div class="col-xs-6 col-sm-6 col-lg-3 quicklinks">
@@ -214,17 +212,14 @@
           <h6><a href="" style="color: white;">Site Map</a></h6>
       </div>
   </div>
-
-  <div class="row">
-    <div class="col-xs-6 col-sm-6 col-lg-3"></div>
-    <div class="col-xs-6 col-sm-6 col-lg-3 copy"><br><br>Website by Creative Tech Bridge Students<br>Copyright © 2020</div>
-    <div class="col-xs-6 col-sm-6 col-lg-3"></div>
+      <div class="row">
+          <div class="col-xs-6 col-sm-6 col-lg-3"></div>
+          <div class="col-xs-6 col-sm-6 col-lg-3 copy"><br><br>Website by Creative Tech Bridge Students<br>Copyright © 2020</div>
+          <div class="col-xs-6 col-sm-6 col-lg-3"></div>
+   </div>
 </div>
-</div>
-
 </footer>  
   <!--===============================================================================================-->
   <script src="assets/Other Pages/main.js"></script>
-
 </body>
 </html>
