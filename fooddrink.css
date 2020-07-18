@@ -240,12 +240,19 @@ hr {
       bottom: 20px;
       left: 50px; 
     }
+  .imgRes{
+    width:75%
+  }
+
   }
   @media only screen and (min-width: 320px) and (max-width: 479px){
     #myBtn{
       position: relative;
       bottom: 20px;
       left: 50px; 
+    }
+    .imgRes{
+      width:75%
     }
   }
 footer {
