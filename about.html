@@ -14,396 +14,313 @@
       rel="stylesheet"
     />
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="about.css" />
-    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>About Our Team</title>
   </head>
 
   <body>
     <!-- ALERT -->
-  <div id="flip"> Special Covid-19 Message click here.</div>
-  <div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
-<!-- NAVIGATION -->
-    <nav class="navbar navbar-inverse" style="background-color: white">
-    <div class="container-fluid">
+    <div id="flip">Special Covid-19 Message click here.</div>
+    <div id="panel">
+      Please check with the restaurants before your visit, due to Covid-19
+      timings and procedures might have been affected. Stay safe Stay healthy.
+    </div>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-inverse" style="background-color: white;">
+      <div class="container-fluid">
         <div class="navbar-header">
-            <a href="index.html" class="logo">
-                <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "150px">
-            </a>
+          <a href="index.html" class="logo">
+            <img
+              alt="Area404 logo"
+              src="assets/images/404logo-white.png"
+              width="150px"
+            />
+          </a>
 
-<!-- DROPDOWN -->       
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>      
+          <!-- DROPDOWN -->
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar" >
-        <ul class="nav navbar-nav">
-            <br><li class="active"><a href="index.html">Home</a></li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <br />
+            <li class="active"><a href="index.html">Home</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="fooddrink.html" id="navbarDropdownfoodLink" data-toggle="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="fooddrink.html"
+                id="navbarDropdownfoodLink"
+                data-toggle="dropdown"
+              >
                 Food & Drinks
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" onclick="location.href='#noOne'"href="/fooddrink.html">404 Top 10</a><br>
-                  <a class="dropdown-item" onclick="location.href='#noOne'"href="/filterByFoodDrink.html">Filter By</a><br>
-                </div>
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a
+                  class="dropdown-item"
+                  onclick="location.href='#noOne'"
+                  href="/fooddrink.html"
+                  >404 Top 10</a
+                ><br />
+                <a
+                  class="dropdown-item"
+                  onclick="location.href='#noOne'"
+                  href="/filterByFoodDrink.html"
+                  >Filter By</a
+                ><br />
+              </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownattractLink" data-toggle="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="attraction.html"
+                id="navbarDropdownattractLink"
+                data-toggle="dropdown"
+              >
                 Attractions
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="attraction.html">This Weekend</a><br>
-                  <a class="dropdown-item" href="nature.html">Nature Perserves</a><br>
-                  <a class="dropdown-item" href="family-fun.html">Family Fun</a>
-                </div>
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="attraction.html">This Weekend</a
+                ><br />
+                <a class="dropdown-item" href="nature.html">Nature Perserves</a
+                ><br />
+                <a class="dropdown-item" href="family-fun.html">Family Fun</a>
+              </div>
             </li>
             <li><a href="about.html">Our Team</a></li>
             <li><a href="contact.html">Contact</a></li>
-        </ul>
+          </ul>
 
-<!--LOG-IN-->
-        <ul class="nav navbar-nav navbar-right">
-            <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
+          <!--LOG-IN-->
+          <ul class="nav navbar-nav navbar-right">
+            <br />
+            <li>
+              <a href="assets/Login_v12/index.html"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
     </nav>
 
     <!-- MAIN HTML -->
     <main class="container">
-      <h1>About Our Team</h1>
-      <h3 id="intro">
-        Welcome to Area404, a curated directory of interesting places and events
-        throughout Metro Atlanta's.
-      </h3>
-      <p>
-        This site was created by Harsha Javle, Nia Smith, Nia Van Buren, and
-        Jessica Zabala as an exercise in the application of Frontend web
-        development fundamentals for the Techbridge Technology Career Program
-        (TCP) in partnership with Goodwill of North Georgia.
-      </p>
-
-      <div class="bios">
-        <div class="harsha-bio">
+      <!-- INTRO -->
+      <section class="intro">
+        <h1>About Our Team</h1>
+        <h3 id="intro-404">
+          Welcome to Area404, a curated directory of interesting places and
+          events throughout Metro Atlanta's.
+        </h3>
+        <p>
+          This site was created by Harsha Javle, Nia Smith, Nia Van Buren, and
+          Jessica Zabala as an exercise in the application of Frontend web
+          development fundamentals for the Techbridge Technology Career Program
+          (TCP) in partnership with Goodwill of North Georgia.
+        </p>
+      </section>
+      <!-- BIO SECTION -->
+      <section class="bios">
+        <!-- HARSHA BIO SECTION -->
+        <div class="bio harsha">
           <h2 id="harsha-bio">Harsha Javle</h2>
           <p>
             Harsha Javle is an emerging web developer with an educational
             background in computer science.
           </p>
-          <blockquote>
-            <p>
-              I am new to Web development and recently learned about Front end
-              development using HTML, CSS, Bootstrap, and jQuery. My background
-              education is in computer science but I have not perused a career
-              in it for a long time. I started learning front-end web
-              development four weeks back. Here is my collaborated effort with
-              three of my wonderful teammates to design and develop and deploy
-              this Area404 website. Feel free to browse through and don’t forget
-              to give us feedback.
-            </p>
-            <p>
-              Apart from this new effort of learning the most updated
-              technology, I am also a full-time homemaker and mother of two
-              boys.
-            </p>
-            <p>
-              In my free time, I enjoy traveling, reading, cooking, and
-              volunteering in the community.
-            </p>
-          </blockquote>
-        </div>
-        <div class="nias-bio">
-          <h2 id="nias-bio">Nia Smith</h2>
+          <hr />
           <p>
-            Nullam vehicula commodo ligula, et ultricies erat imperdiet at.
-            Suspendisse porttitor finibus risus eu varius. Maecenas tempor
-            aliquam nibh, sit amet sagittis lectus blandit lobortis. Donec
-            lobortis porta lobortis. Mauris sagittis, erat quis tincidunt
-            convallis, dolor lacus congue turpis, rutrum porta ipsum nulla et
-            dui.
+            I am new to Web development and recently learned about Front end
+            development using HTML, CSS, Bootstrap, and jQuery. My background
+            education is in computer science but I have not perused a career in
+            it for a long time. I started learning front-end web development
+            four weeks back. Here is my collaborated effort with three of my
+            wonderful teammates to design, develop, and deploy this Area404
+            website. Feel free to browse through and don’t forget to give us
+            feedback.
           </p>
-
-          <blockquote>
-            <p>
-              Nulla accumsan elementum nisl vitae tincidunt. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos.
-            </p>
-          </blockquote>
+          <p>
+            Apart from this new effort of learning the most updated technology,
+            I am also a full-time homemaker and mother of two boys.
+          </p>
+          <p>
+            In my free time, I enjoy traveling, reading, cooking, and
+            volunteering in the community.
+          </p>
         </div>
-
-        <div class="niav-bio">
-          <h1 id="Nia Van Buren">Nia Van Buren</h1>
+        <!-- NIA S. BIO SECTION -->
+        <div class="bio nias">
+          <h2 id="nias-bio">Nia Smith</h2>
+          <hr />
+          <p>
+            time fashion model I wanted a career switch once I migrated and the
+            TechBridge program is the best choice I’ve made, as it’s a creative
+            field where I’ll be able to express my creativity digitally. In my
+            free time, I love hiking with my friends and family, going thrift
+            shopping and learning to cook new and unique dishes from my cousin.
+          </p>
+        </div>
+        <!-- NIA V. BIO SECTION -->
+        <div class="bio niav">
+          <h2 id="niav-bio">Nia Van Buren</h2>
           <p>
             Nia Van Buren is a Full-Stack Digital Content Specialist with a
             background in applied linguistics.
           </p>
-          <blockquote>
-            <p>
-              I began my training in the field of applied linguistics, earning
-              high marks in topics spanning phonetics, phonology, semantics, and
-              syntax at Georgia State University.
-            </p>
-            <p>
-              I hope to parlay my knowledge of syntax and written structure into
-              web development with a focus on consistency and Quality Assurance.
-            </p>
-            <p>
-              I aim to continue toward a dedicated study of Machine Learning
-              Artificial Intelligence (AI).
-            </p>
-          </blockquote>
+          <hr />
+          <p>
+            I began my training in the field of applied linguistics, earning
+            high marks in topics spanning phonetics, phonology, semantics, and
+            syntax at Georgia State University.
+          </p>
+          <p>
+            I hope to parlay my knowledge of syntax and written structure into
+            web development with a focus on consistency and Quality Assurance.
+          </p>
+          <p>
+            I aim to continue toward a dedicated study of Machine Learning
+            Artificial Intelligence (AI).
+          </p>
         </div>
-
-        <div class="jess-bio">
-          <h1 id="“jess-bio”">Jessica Zabala</h1>
+        <!-- JESS ZABALA BIO SECTION -->
+        <div class="bio jess">
+          <h2 id="“jess-bio”">Jessica Zabala</h2>
           <p>
             Jessica Zabala is a creative first-generation American with a
             background in marketing and TV production.
           </p>
-          <blockquote>
-            <p>
-              [I aim] to further my design career as a full-stack developer
-              alongside clients that are focused on making viable differences in
-              their communities and the world.
-            </p>
-          </blockquote>
+          <hr />
+          <p>
+            [I aim] to further my design career as a full-stack developer
+            alongside clients that are focused on making viable differences in
+            their communities and the world.
+          </p>
         </div>
-      </div>
+      </section>
     </main>
-
-    <!-- DEPRECATED: MAIN -->
-    <!-- <main class="container">
-      <h1>About Our Team</h1>
-      <p>
-        We are group of aspiring Web developers, We have made an attempt to
-        design and develop the Area 404 area guide in case you are planning to
-        visit atlanta? Georgia. Or looking for fun information in Atlanta area.
-        Here is small introduction about us.
-      </p>
-      <div class="bio" class="col-sm-4">
-        <h2>Harsha Javle</h2>
-        <p>
-          I am new to Web development and recently learned about Front end
-          development using HTML, CSS, BootStrap and JQuery. My background
-          eduction is computer science but I have not perused career in it for
-          long time. I started learning front end web development four weeks
-          back. Here is my collaborated effort with three of my wonderful
-          teammates to design and develop and deploy Area 404 website. Feel free
-          to browse through and don't for get to give us a feed back.
-        </p>
-        <p>
-          Apart from this new effort of learning most updated technology, I am a
-          full time home maker and mother of two boys, a teenager and an adult
-          son. In my free time I enjoy travelling, reading, cooking and
-          volunteering in community.
-        </p>
-        <div style="text-align: center;" class="container">
-          <a href="https://www.linkedin.com/" class="li-ic">
-            <i class="fab fa-linkedin-in fa-sm white-text mr-md-5 mr-3 fa-1x">
-            </i
-          ></a>
-          <a href="https://github.com/hjavle" class="git-ic"
-            ><i class="fab fa-github fa-sm white-text mr-md-5 mr-3 fa-1x"> </i
-          ></a>
-        </div>
-        <hr />
-      </div>
-      <div class="bio" class="col">
-        <h2>Nia Smith</h2>
-        <p>
-          We are group of aspiring Web developers, We have made an attempt to
-          design and develop the area guide in case you are planning to visit
-          atlanta? Georgia. Here is small introduction about us.
-        </p>
-        <p>
-          We are group of aspiring Web developers, We have made an attempt to
-          design and develop the area guide in case you are planning to visit
-          atlanta? Georgia. Here is small introduction about us.
-        </p>
-        <div style="text-align: center;" class="container">
-          <a href="" class="li-ic">
-            <i class="fab fa-linkedin-in fa-sm white-text mr-md-5 mr-3 fa-1x">
-            </i
-          ></a>
-          <a href="" class="git-ic"
-            ><i class="fab fa-github fa-sm white-text mr-md-5 mr-3 fa-1x"> </i
-          ></a>
-        </div>
-        <hr />
-      </div>
-      <div class="bio" class="col">
-        <h2>Jessica Zabala</h2>
-        <p>
-          We are group of aspiring Web developers, We have made an attempt to
-          design and develop the area guide in case you are planning to visit
-          atlanta? Georgia. Here is small introduction about us.
-        </p>
-        <p>
-          We are group of aspiring Web developers, We have made an attempt to
-          design and develop the area guide in case you are planning to visit
-          atlanta? Georgia. Here is small introduction about us.
-        </p>
-        <div style="text-align: center;" class="container">
-          <a href="" class="li-ic">
-            <i class="fab fa-linkedin-in fa-sm white-text mr-md-5 mr-3 fa-1x">
-            </i
-          ></a>
-          <a href="" class="git-ic"
-            ><i class="fab fa-github fa-sm white-text mr-md-5 mr-3 fa-1x"> </i
-          ></a>
-        </div>
-
-        <hr />
-      </div>
-      <div class="bio" class="col">
-        <h2>Nia Van Buren</h2>
-        <p>
-          We are group of aspiring Web developers, We have made an attempt to
-          design and develop the area guide in case you are planning to visit
-          atlanta? Georgia. Here is small introduction about us.
-        </p>
-        <p>
-          We are group of aspiring Web developers, We have made an attempt to
-          design and develop the area guide in case you are planning to visit
-          atlanta? Georgia. Here is small introduction about us.
-        </p>
-        <div style="text-align: center;" class="container">
-          <a href="" class="li-ic">
-            <i class="fab fa-linkedin-in fa-sm white-text mr-md-5 mr-3 fa-1x">
-            </i
-          ></a>
-          <a href="" class="git-ic"
-            ><i class="fab fa-github fa-sm white-text mr-md-5 mr-3 fa-1x"> </i
-          ></a>
-        </div>
-
-        <hr />
-      </div>
-    </main> -->
-
+    <!-- FOOTER FROM HARSHA -->
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-lg-3 quicklinks">
-            <h4>Quicklinks</h4>
-            <h6>
-              <a href="assets/Other Pages/aquarium.html" style="color: white;"
-                >Night at the Aquarium</a
+          <div class="col-sm-4" id="left" style="float: left;" ;="">
+            <h3>Quicklinks</h3>
+            <h3></h3>
+            <h4>
+              <a
+                href="https://www.citypass.com/atlanta?mv_source=atlantacvb&amp;campaign=main-citypass"
+                style="color: white;"
+                >Citypass Atlanta</a
               >
-            </h6>
-            <h6>
-              <a href="assets/Other Pages/donut.html" style="color: white;"
-                >Top 5 Donut Shops</a
+            </h4>
+            <h4>
+              <a
+                href="https://www.piedmontpark.org/venue-rentals/"
+                style="color: white;"
+                >Park Venus</a
               >
-            </h6>
-            <h6>
+            </h4>
+            <h4>
               <a
                 href="https://atltransit.ga.gov/system-maps/#marta"
                 style="color: white;"
                 >Transportation Maps</a
               >
-            </h6>
-            <h6>
+            </h4>
+            <h4>
               <a
                 href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640"
                 style="color: white;"
                 >Explore Atlanta</a
               >
-            </h6>
-            <h6>
+            </h4>
+            <h4>
               <a href="https://atlantafoodwalks.com/" style="color: white;"
                 >Atlanta Food Walks</a
               >
-            </h6>
-            <h6>
+            </h4>
+            <h4>
               <a href="https://biketoursatl.com/" style="color: white;"
                 >Bike Tours</a
               >
-            </h6>
+            </h4>
           </div>
-          <div class="col-xs-6 col-sm-6 col-lg-3 legal">
-            <h4>Restaurant Links</h4>
-            <h6>
-              <a
-                href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1"
-                style="color: white;"
-                >Food Truck Festivals
-              </a>
-            </h6>
-            <h6>
-              <a
-                href="https://www.atlanta.net/dining/farmers-markets/"
-                style="color: white;"
-                >Farmer's Market
-              </a>
-            </h6>
-            <h6>
-              <a
-                href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/"
-                style="color: white;"
-                >Food & Wine Festival
-              </a>
-            </h6>
-            <h6>
-              <a
-                href="https://www.atlantamagazine.com/50bestrestaurants/"
-                style="color: white;"
-                >Atlanta Magazine
-              </a>
-            </h6>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-lg-3 social">
-            <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
-            <a href="https://www.facebook.com"
-              ><img
-                src="assets/images/FBlogo.png"
-                alt="facebook link"
-                style="width: 30px; height: 30px;"
-            /></a>
-            <a href="https://www.twitter.com"
-              ><img
-                src="assets/images/Twitterlogo.png"
-                alt="linkedin link"
-                style="width: 30px; height: 30px;"
-            /></a>
-            <a href="https://www.instagram.com"
-              ><img
-                src="assets/images/IGlogo.png"
-                alt="instagram link"
-                style="width: 30px; height: 30px;"
-            /></a>
-            <a href="https://www.youtub.com"
-              ><img
-                src="assets/images/YTlogo.png"
-                alt="youtube link"
-                style="width: 30px; height: 30px;"
-            /></a>
-            <a href="#"
-              ><img
-                src="assets/images/Subcribelogo.png"
-                alt="github link"
-                style="width: 30px; height: 30px;"
-            /></a>
-            <br /><br />
-            <h4>Legal</h4>
-            <h6><a href="" style="color: white;">Privacy Policy</a></h6>
-            <h6><a href="" style="color: white;">Terms & Agreements</a></h6>
-            <h6><a href="" style="color: white;">Site Map</a></h6>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-xs-6 col-sm-6 col-lg-3"></div>
-          <div class="col-xs-6 col-sm-6 col-lg-3 copy">
-            <br /><br />Website by Creative Tech Bridge Students<br />Copyright
-            © 2020
+          <div class="col-sm-4" id="middle" style="float: center;">
+            <h3>Site Map</h3>
+            <h4>
+              <a href="https://biketoursatl.com/" style="color: white;">Home</a>
+            </h4>
+            <h4>
+              <a href="https://biketoursatl.com/" style="color: white;"
+                >About Us</a
+              >
+            </h4>
+            <h4>
+              <a href="https://biketoursatl.com/" style="color: white;"
+                >Food and Drink</a
+              >
+            </h4>
+            <h4>
+              <a href="https://biketoursatl.com/" style="color: white;"
+                >Attractions</a
+              >
+            </h4>
           </div>
-          <div class="col-xs-6 col-sm-6 col-lg-3"></div>
+          <div class="col-sm-4" id="right" style="float: right;">
+            <h3><a href="contact.html" style="color: white;">Contact Us</a></h3>
+            <div class="socialmedia">
+              <a href="https://www.facebook.com"
+                ><img
+                  src="Assets/images/FBlogo.png"
+                  alt="facebook link"
+                  style="width: 35px; height: 35px;"
+              /></a>
+              <a href="https://www.twitter.com"
+                ><img
+                  src="assets/images/Twitterlogo.png"
+                  alt="linkedin link"
+                  style="width: 35px; height: 35px;"
+              /></a>
+              <a href="https://www.instagram.com"
+                ><img
+                  src="assets/images/IGlogo.png"
+                  alt="instagram link"
+                  style="width: 35px; height: 35px;"
+              /></a>
+              <a href="https://www.youtub.com"
+                ><img
+                  src="assets/images/YTlogo.png"
+                  alt="github link"
+                  style="width: 35px; height: 35px;"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/images/Subcribelogo.png"
+                  alt="github link"
+                  style="width: 35px; height: 35px;"
+              /></a>
+            </div>
+            <h3>Legal</h3>
+            <p class="copyright">
+              website by Creative Tech Bridge Students Copyright © 2020
+            </p>
+          </div>
         </div>
       </div>
     </footer>
