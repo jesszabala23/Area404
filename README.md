@@ -34,7 +34,7 @@ _Your deployed site must include all of the following over at least five HTML pa
 ### [Harsha Javle](https://github.com/hjavle)
 
 - [_Food and Drink Highlights Section_](fooddrink.html) showcasing curated dining destination across Metro Atlanta
-- [HTML Contact Form](contact.html)
+- [_HTML Contact Form_](contact.html)
 - Global COVID Update Message
 - “Back to Top” Navigation Button (JavaScript Feature)
 
