@@ -293,7 +293,8 @@ color: white;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
-.links> p {
+.links> p > a {
+  text-decoration: none;
   text-align: left;    
   font-size: 1em;
   margin-bottom: 5px;
