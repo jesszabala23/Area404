@@ -36,6 +36,11 @@
   text-decoration: none;
 }
 
+.navbar-toggle{
+  background-color:#000000;
+}
+
+
 /*CAROUSEL*/
 .carFest, .carView, .carDate {
   background-color: red;
@@ -234,4 +239,3 @@ footer {
   .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #c0392b !important;
   }
-

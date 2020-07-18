@@ -36,9 +36,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .navbar-toggle{
   background-color:#000000;
 }
+
 
   /* login */
   ul .nav .navbar-nav .navbar-right{ 
@@ -62,6 +64,7 @@
   background-size: cover;
 }
   
+
  
   /* moving photos on attractions page */
 
@@ -81,15 +84,9 @@ footer {
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
+
+ @media (max-width: 600px) {
   .carousel-caption {
     display: none; 
   }
-
-    /* nature preserve page */
-    .col-sm-4{
-      text-align: left;
-      height: 400px;
-      width: 100px;
-  }
-}
+} 

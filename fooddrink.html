@@ -10,61 +10,60 @@
     <link rel="canonical" href="https://www.toptal.com/designers/htmlarrows/numbers/roman-numeral-one/">
    
     <link rel="stylesheet" type="text/css" href="fooddrink.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
 </html>
 
 <body>
-<!-- ALERT -->
-<div id="flip"> Special Covid-19 Message click here.</div>
-<div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
-<!-- NAVIGATION -->
-  <nav class="navbar navbar-inverse" style="background-color: white">
-  <div class="container-fluid">
-      <div class="navbar-header">
-          <a href="index.html" class="logo">
-              <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "150px">
-          </a>
-
-<!-- DROPDOWN -->       
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
-          </button>      
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar" >
-      <ul class="nav navbar-nav">
-          <br><li><a href="index.html">Home</a></li>
-          <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="fooddrink.html" id="navbarDropdownfoodLink" data-toggle="dropdown">
-              Food & Drinks
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" onclick="location.href='#noOne'"href="/fooddrink.html">404 Top 10</a><br>
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+    
+    <div id="flip"> Special Covid-19 Message click here.</div>
+    <div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
+<!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
+<!-- Header -->
+<nav class="navbar navbar-inverse" style="background-color: white">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="index.html">
+                <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "180px">
+            </a>
+<!-- Collapse Button -->       
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>      
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar" >
+        <ul class="nav navbar-nav">
+            <br><li class="active"><a href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="foodrink.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                Food & Drinks
+                </a> 
+               
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" onclick="location.href='#noOne'" >404 Top 10</a><br>
                 <a class="dropdown-item" onclick="location.href='#noOne'"href="/filterByFoodDrink.html">Filter By</a><br>
-              </div>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownattractLink" data-toggle="dropdown">
-              Attractions
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="attraction.html">This Weekend</a><br>
-                <a class="dropdown-item" href="nature.html">Nature Perserves</a><br>
-                <a class="dropdown-item" href="family-fun.html">Family Fun</a>
-              </div>
-          </li>
-          <li><a href="about.html">Our Team</a></li>
-          <li><a href="contact.html">Contact</a></li>
-      </ul>
-
-<!--LOG-IN-->
-      <ul class="nav navbar-nav navbar-right">
-          <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-      </div>
-  </div>
-  </nav>
+                
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                Attractions
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">This weekend</a><br>
+                <a class="dropdown-item" href="#">Nature Perserves</a><br>
+                <a class="dropdown-item" href="#">Family Fun</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
 <!----------------------------------------------------Navigation bar------------------------------------------------------------------------------------->   
 <main class="container-fluid">
     <video autoplay muted loop id="myVideo" style="width:100%">
@@ -73,9 +72,10 @@
     </video>
     
     <div class="sticky" style="text-align: center; z-index: 1;">
+        <div id="noOne"></div>
         <div class="btn-group" class="sticky">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              The Restaurants
+              Top 10 Restaurants
             </button>
             <div class="dropdown-menu">
               <button class="dropdown-item" type="button" onclick="location.href='#noOne'">1.Miller Union</button>
@@ -91,8 +91,8 @@
             </div>
         </div>
         <div class="btn-group">
-            <button type="button" onclick="location.href='filterByFoodDrink.html'" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Filter By
+            <button type="button" onclick="location.href='#noFilterby'" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Area Favorites
             </button>
             
         </div>
@@ -101,8 +101,9 @@
              Map</button>
         </div>
     </div>
+    
 <!------------------------------------------------------------------------------------------------------------------------------------------------>
-<div class ="container container-fluid" class= "abtRest" id="noOne">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
     
         <div  class="col-lg-12">
@@ -111,29 +112,28 @@
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="https://www.millerunion.com/site/press/" scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
-               
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/miller.png" alt="Miller" width="1000px"/>
         </div>
    
        <div class="resInsta" style="text-align: center;" class ="col"> 
-        “Steven Satterfield’s menu shows off the best of the South’s okra, field peas, turnips and tomatoes in a style that would make Alice Waters weak in the knees. Perfect for a date night or lunch at the counter, where one can explore an innovative wine list with pours by the glass.”
-The New York Times, 2016
+        “Steven Satterfield’s menu shows off the best of the South’s okra, field peas, turnips and tomatoes in a style that would make Alice Waters weak in the knees. 
+        Perfect for a date night or lunch at the counter, where one can explore an innovative wine list with pours by the glass.”
+        The New York Times, 2016
        </div> 
 
         
-        <div class="info" class="container col-md-12" style="text-align: center;" >
+        <div class="info" class="container col-md-12" style="text-align: center;">
             <h4>999 Brady Ave, NW Atlanta, GA 30318|(678) 733-8550| Mon to Thu & Sun 5:00 pm - 9:00 pm Fri/Sat 5:00 pm - 10:00 pm </h4> 
-            <a href="https://www.millerunion.com/site/menu/dinner/" class="btn menu" id="#millerMenu" >Full Menu </a>               
-            <a href="https://www.millerunion.com/site/reservations/" class="btn book" id="#millerBook" >Book Reservation</a>    
+            <a href="https://www.millerunion.com/site/menu/dinner/" class="btn menu" id="#millerMenu" target="_blank" >Full Menu </a>               
+            <a href="https://www.millerunion.com/site/reservations/" class="btn book" target="_blank" id="#millerBook" >Book Reservation</a>    
         </div>
+        <div id="noTwo"></div>
     </div>
-    <hr>
+    <hr/>
 </div>
-<br>
-<br>
 <!-----------------------------------------------------------------Res 2---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id= "noTwo">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#50;</div>
@@ -141,25 +141,24 @@ The New York Times, 2016
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="http://www.staplehouse.com/press" scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
-               
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/staplehouse.png" alt="staplehouse" width="1000px"/>
         </div> 
-          
         <div class="resInsta" style="text-align: center;" class ="col">
-            The story of how Staplehouse came to be will tear you apart. But after you eat here, it will build you back up. Welcome to the best new restaurant of 2016
-BY ANDREW KNOWLTON AUGUST 16, 2016
+            The story of how Staplehouse came to be will tear you apart. But after you eat here, it will build you back up. Welcome to the best new restaurant of 
+            2016 BY ANDREW KNOWLTON AUGUST 16, 2016
         </div> 
-            <div class="info" class="container col-md-12" style="text-align: center;" >
+        <div class="info" class="container col-md-12" style="text-align: center;">
             <h4>541 Edgewood Ave. SE Atlanta, GA 30312|(404) 524-5005| Mon to Thu & Sun 5:00 pm - 9:00 pm Fri/Sat 5:00 pm - 10:00 pm </h4> 
-            <a href="http://www.staplehouse.com/menu" class="btn menu" >Full Menu </a>         
-            <a href="http://www.staplehouse.com/reservations" class="btn book">Book reservation: </a>    
+            <a href="http://www.staplehouse.com/menu" target="_blank"  class="btn menu" target="_blank">Full Menu </a>         
+            <a href="http://www.staplehouse.com/reservations" class="btn book" target="_blank">Book Reservation: </a>    
         </div>
+        <div id="noThree"></div>
     </div>
-    <hr>
+    <hr/>
 </div>
 <!-----------------------------------------------------------------Res 3---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noThree">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#51;</div>
@@ -167,9 +166,8 @@ BY ANDREW KNOWLTON AUGUST 16, 2016
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="https://www.nanfinedining.com/press" scrolling="no" width="100%" height="1000" style="border:none; "></iframe>
-               
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/NAAN.png" alt="Naan" width="1000px"/>
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
@@ -177,17 +175,17 @@ BY ANDREW KNOWLTON AUGUST 16, 2016
             -Charlie Niyomkul
         </div>
 
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>1350 Spring Street NW Atlanta, GA 30309|(404)870-9933| Mon to Thu & Sun 5:00 pm - 9:00 pm Fri/Sat 5:00 pm - 10:00 pm </h4> 
-            <a href="https://www.nanfinedining.com/menu" class="btn menu">Full Menu </a>         
-            <a href="https://www.nanfinedining.com/reservations" class="btn book">Book Reservation</a>    
+        <div class="info" class="container col-md-12" style="text-align: center;" >
+            <h4>1350 Spring Street NW Atlanta, GA 30309|(404)870-9933| Mon to Thu & Sun 5:00 pm - 9:00 pm Fri/Sat 5:00 pm - 10:00 pm </h4> 
+            <a href="https://www.nanfinedining.com/menu" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="https://www.nanfinedining.com/reservations" class="btn book" target="_blank">Book Reservation</a>    
         </div>
+        <div id="noFour"></div>
     </div>
     <hr>
 </div>
 <!-------------------------------------------------------Res 4------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noFour">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#52;</div>
@@ -195,26 +193,28 @@ BY ANDREW KNOWLTON AUGUST 16, 2016
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="https://www.rumiskitchen.com/" scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
-               
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/Rumi.png" alt="Rumi's Kitchen" width="1000px"/>
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
-            Chef Ali Mesghali’s love of cooking began while growing up in Esfahan, Iran and Los Angeles, California. This interest grew to become a passion and a career after Ali moved to Atlanta, Georgia. In the kitchen, as well as in the dining room, Ali is known for his pursuit of perfection, his intensity and a love for what he does. This unending aspiration for perfection has been instrumental in establishing the standard for Persian cuisine in Atlanta. His unique and flavorful touch has been wowing patrons at Rumi’s Kitchen in the past 5 years and has created a place where people want to visit again and again.
- </div>
- 
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>6112 Roswell Road Atlanta, GA 30328|(404) 477-2100| Sun - Thur 11:30 am - 9:00 pm, Sat/Sun 11:30 pm - 10:00 pm </h4> 
-            <a href="https://www.rumiskitchen.com/menu" class="btn menu">Full Menu </a>         
-            <a href="https://www.rumiskitchen.com/reservation-hours" class="btn book">Book reservation</a>    
+            Chef Ali Mesghali’s love of cooking began while growing up in Esfahan, Iran and Los Angeles, California. This interest grew to become a passion and a 
+            career after Ali moved to Atlanta, Georgia. In the kitchen, as well as in the dining room, Ali is known for his pursuit of perfection, his intensity and 
+            a love for what he does. This unending aspiration for perfection has been instrumental in establishing the standard for Persian cuisine in Atlanta. His 
+            unique and flavorful touch has been wowing patrons at Rumi’s Kitchen in the past 5 years and has created a place where people want to visit again and again.
         </div>
+ 
+        <div class="info" class="container col-md-12" style="text-align: center;" >
+            <h4>6112 Roswell Road Atlanta, GA 30328|(404) 477-2100| Sun - Thur 11:30 am - 9:00 pm, Sat/Sun 11:30 pm - 10:00 pm </h4> 
+            <a href="https://www.rumiskitchen.com/menu" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="https://www.rumiskitchen.com/reservation-hours" class="btn book"target="_blank">Book Reservation</a>    
+        </div>
+        <div id="noFive"></div>
     </div>
     <hr>
 </div>
 <!-----------------------------------------------------------------Res 5---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noFive">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#53;</div>
@@ -222,27 +222,28 @@ BY ANDREW KNOWLTON AUGUST 16, 2016
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="https://sushihayakawa.com/" scrolling="no"width="100%" height="1000" style="border:none;"></iframe>
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/Sushi.png" alt="Sushi Hayakawa" width="1000px"/>
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
-            Sushi Hayakawa is an intimate and traditional sushiya in the mold of the finest sushi shops in Japan. Located on the famed international food emporium of Buford Highway, our serenely designed space allows for guests to have a truly unique experience. Chef Atsushi Hayakawa curates the finest fish selection in Atlanta, sourcing our offerings from Tokyo's Toyosu market and all over the globe. A staple of Atlanta since 2008, we invite you to join us for an experience rarely found outside of Japan.
+            Sushi Hayakawa is an intimate and traditional sushiya in the mold of the finest sushi shops in Japan. Located on the famed international food emporium of 
+            Buford Highway, our serenely designed space allows for guests to have a truly unique experience. Chef Atsushi Hayakawa curates the finest fish selection 
+            in Atlanta, sourcing our offerings from Tokyo's Toyosu market and all over the globe. A staple of Atlanta since 2008, we invite you to join us for an experience 
+            rarely found outside of Japan.
         </div>
  
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>5979 BUFORD HWY NE, ATLANTA, GA 30340|(770)986-0010| Tue to Sat & Sun 5:00 pm - 10:30 pm</h4> 
-            <a href="https://sushihayakawa.com/" class="btn menu">Full Menu </a>         
-            <a href="https://sushihayakawa.com/" class="btn book">Book Reservation</a>    
+        <div class="info" class="container col-md-12" style="text-align: center;" >
+            <h4>5979 BUFORD HWY NE, ATLANTA, GA 30340|(770)986-0010| Tue to Sat & Sun 5:00 pm - 10:30 pm</h4> 
+            <a href="https://sushihayakawa.com/" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="https://sushihayakawa.com/" class="btn book" target="_blank">Book Reservation</a>    
         </div>
+        <div id="noSix"></div>
     </div>
     <hr>
 </div>
-
-
 <!-----------------------------------------------------------------Res 6---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noSix">
+<div class ="container container-fluid" class= "abtRest"></div>
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#54;</div>
@@ -250,32 +251,30 @@ BY ANDREW KNOWLTON AUGUST 16, 2016
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="http://www.starprovisions.com/bacchanalia" scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/star.png" alt="Star Provisions" width="1000px"/>
                
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
-        Bacchanalia has well-earned its reputation as Atlanta's most-celebrated restaurant since opening in 1993, and consistently gains ratings as one of Atlanta's top restaurants.
-
-Featuring contemporary American cuisine from Chefs/Owners Anne Quatrano and Clifford Harrison, and a culinary team led by Jonathan Kallini, Bacchanalia features light and creative plates. Bacchanalia's seasonal menu relies entirely on organic ingredients, many sourced from Anne and Clifford's farm, Summerland, creating a fresh and unique experience every time.
-
-Bacchanalia offers a four course, prix fixe menu at $95 per person. The menu evolves slightly each evening and throughout the seasons. We offer a wine pairing suggestion with many of the menu options.
-
-
+        Bacchanalia has well-earned its reputation as Atlanta's most-celebrated restaurant since opening in 1993, and consistently gains ratings as one of 
+        Atlanta's top restaurants.Featuring contemporary American cuisine from Chefs/Owners Anne Quatrano and Clifford Harrison, and a culinary team led by 
+        Jonathan Kallini, Bacchanalia features light and creative plates. Bacchanalia's seasonal menu relies entirely on organic ingredients, many sourced 
+        from Anne and Clifford's farm, Summerland, creating a fresh and unique experience every time.Bacchanalia offers a four course, prix fixe menu at 
+        $95 per person. The menu evolves slightly each evening and throughout the seasons. We offer a wine pairing suggestion with many of the menu options.
         </div>
-------> 
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>1460 Ellsworth Industrial Blvd.Atlanta, GA 30318|(404) 524-5005| Mon to Sun 11:30 am - 7:00 pm , Tue to Sat 5:00 pm - 9:30 pm</h4> 
-            <a href="http://www.starprovisions.com/bacchanalia#anchor" class="btn menu">Full Menu </a>         
-            <a href="http://www.starprovisions.com/bacchanalia#anchor" class="btn book">Book Reservation</a>    
+
+        <div class="info" class="container col-md-12" style="text-align: center;" >
+            <h4>1460 Ellsworth Industrial Blvd.Atlanta, GA 30318|(404) 524-5005| Mon to Sun 11:30 am - 7:00 pm , Tue to Sat 5:00 pm - 9:30 pm</h4> 
+            <a href="http://www.starprovisions.com/bacchanalia#anchor" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="http://www.starprovisions.com/bacchanalia#anchor" class="btn book" target="_blank">Book Reservation</a>    
         </div>
+        <div id="noSeven"></div>
     </div>
     <hr>
 </div>
 <!-----------------------------------------------------------------Res 7---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noSeven">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#55;</div>
@@ -283,26 +282,27 @@ Bacchanalia offers a four course, prix fixe menu at $95 per person. The menu evo
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="http://boccalupoatl.com/#about" scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
-               
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/boccalupo.png" alt="boccalupoatl" width="1000px"/>
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
-        BoccaLupo is a bustling neighborhood restaurant located in Inman Park. We specialize in handmade and extruded pasta dishes with an eye on seasonality and where it comes from. Chef Bruce Logue and his team are passionate about questioning what is considered Italian-American cooking. With a casual vibe, genuine service and a talented bar team BoccaLupo continues to be an Atlanta must.
+        BoccaLupo is a bustling neighborhood restaurant located in Inman Park. We specialize in handmade and extruded pasta dishes with an eye on seasonality 
+        and where it comes from. Chef Bruce Logue and his team are passionate about questioning what is considered Italian-American cooking. With a casual vibe, 
+        genuine service and a talented bar team BoccaLupo continues to be an Atlanta must.
         </div>
 
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>753 Edgewood Ave Atlanta, GA 30307|(404) 577-2332| Mon to Sun  5:00 pm - 9:30 pm </h4> 
-            <a href="http://boccalupoatl.com/#menu" class="btn menu">Full Menu </a>         
-            <a href="https://resy.com/cities/atl/boccalupo?date=2020-07-14&seats=2" class="btn book">Book Reservation</a>    
+        <div class="info" class="container col-md-12" style="text-align: center;" >
+            <h4>753 Edgewood Ave Atlanta, GA 30307|(404) 577-2332| Mon to Sun  5:00 pm - 9:30 pm </h4> 
+            <a href="http://boccalupoatl.com/#menu" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="https://resy.com/cities/atl/boccalupo?date=2020-07-14&seats=2" class="btn book" target="_blank">Book Reservation</a>    
         </div>
+        <div id="noEight"></div>
     </div>
     <hr>
 </div>
 <!-----------------------------------------------------------------Res 8---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noEight">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#56;</div>
@@ -310,26 +310,26 @@ Bacchanalia offers a four course, prix fixe menu at $95 per person. The menu evo
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="https://bonesrestaurant.com/about/" scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
-               
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/bones.png" alt="Bones" width="1000px"/>
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
-            Bones has received the Best of Atlanta Steakhouse Award each year running for the past sixteen years. Recently, Zagat recognized Bones as having the highest rating for food and service of any steakhouse in America. We are proud of this rating, and we will do our best to uphold it.
+            Bones has received the Best of Atlanta Steakhouse Award each year running for the past sixteen years. Recently, Zagat recognized Bones as 
+            having the highest rating for food and service of any steakhouse in America. We are proud of this rating, and we will do our best to uphold it.
         </div>
 
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>3130 Piedmont Rd NE, Atlanta, GA 30305|(404) 237-2663| Mon to Fri 11:30 am - 2:30 pm, Mon to Sun 5:00 pm - 9:00 pm</h4> 
-            <a href="https://bonesrestaurant.com/lunch-menu/" class="btn menu">Full Menu </a>         
-            <a href="https://bonesrestaurant.com/about-us-2-2-2/" class="btn book">Book Reservation</a>    
+        <div class="info" class="container col-md-12" style="text-align: center;" >
+            <h4>3130 Piedmont Rd NE, Atlanta, GA 30305|(404) 237-2663| Mon to Fri 11:30 am - 2:30 pm, Mon to Sun 5:00 pm - 9:00 pm</h4> 
+            <a href="https://bonesrestaurant.com/lunch-menu/" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="https://bonesrestaurant.com/about-us-2-2-2/" class="btn book" target="_blank">Book Reservation</a>    
         </div>
+        <div id="noNine"></div>
     </div>
     <hr>
 </div>
 <!-----------------------------------------------------------------Res 9---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noNine">
+<div class ="container container-fluid" class= "abtRest" >
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#57;</div>
@@ -337,26 +337,27 @@ Bacchanalia offers a four course, prix fixe menu at $95 per person. The menu evo
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="http://www.kimball-house.com/press"scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/kimball.png" alt="Kimball" width="1000px"/>
                
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
-            We serve food and drinks that reflect the seasons, farms, and personalities of the people preparing them. Humility, hospitality, and passion for our crafts are our fuel and foundation. Service with love and a sense of welcome are what you will find inside Kimball House.
+            We serve food and drinks that reflect the seasons, farms, and personalities of the people preparing them. Humility, hospitality, and passion for our 
+            crafts are our fuel and foundation. Service with love and a sense of welcome are what you will find inside Kimball House.
         </div>
  
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>303 East Howard Avenue, Decatur, GA|(404) 378-3502| Mon to Thu & Sun 5:00 pm - 9:00 pm Fri/Sat 5:00 pm - 10:00 pm</h4> 
-            <a href="http://www.kimball-house.com/dine-in" class="btn menu">Full Menu </a>         
-            <a href="http://www.kimball-house.com/reservations" class="btn book">Book Reservation</a>    
+        <div class="info" class="container col-md-12" style="text-align: center;" >
+            <h4>303 East Howard Avenue, Decatur, GA|(404) 378-3502| Mon to Thu & Sun 5:00 pm - 9:00 pm Fri/Sat 5:00 pm - 10:00 pm</h4> 
+            <a href="http://www.kimball-house.com/dine-in" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="http://www.kimball-house.com/reservations" class="btn book" target="_blank">Book Reservation</a>    
         </div>
+        <div id="noTen"></div>
     </div>
     <hr>
 </div>
 <!-----------------------------------------------------------------Res 10---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest" id="noTen">
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#49&#48;</div>
@@ -364,8 +365,8 @@ Bacchanalia offers a four course, prix fixe menu at $95 per person. The menu evo
             <br>   
         </div>    
             
-        <div class="resPress" class="col">
-            <iframe src="https://lanzhouramenatlanta.com/news-articles-magazine-publications/" scrolling="no" width="100%" height="1000" style="border:none;"></iframe>
+        <div class="resPress" class="col" style="text-align: center;">
+            <img src="images/LanZhou.png" alt="Lan Zhou" width="1000px"/>
                
         </div> 
 
@@ -374,98 +375,134 @@ Bacchanalia offers a four course, prix fixe menu at $95 per person. The menu evo
 
         </div>
  
-            <div class="info" class="container col-md-12" style="text-align: center;" >
-            
-                <h4>5231 Buford Hwy NE, Doraville, GA 30340|(678) 691-2175| Mon to Sun  11am - 8:30pm </h4> 
-            <a href="https://lanzhouramen.files.wordpress.com/2018/10/lanzhou-ramen-atlanta-menu.pdf" class="btn menu">Full Menu </a>         
-            <a href="https://lanzhouramenatlanta.com/" class="btn book">Book Reservation</a>    
+        <div class="info" class="container col-md-12" style="text-align: center;" id="noFilterby">
+            <h4>5231 Buford Hwy NE, Doraville, GA 30340|(678) 691-2175| Mon to Sun  11am - 8:30pm </h4> 
+            <a href="https://lanzhouramen.files.wordpress.com/2018/10/lanzhou-ramen-atlanta-menu.pdf" class="btn menu" target="_blank">Full Menu </a>         
+            <a href="https://lanzhouramenatlanta.com/" class="btn book" target="_blank">Book Reservation</a>    
         </div>
     </div>
-    <hr>
+    <hr >
 </div>
-   
-   
+<!-----------------------------------------------------------------FilterBy------------------------------------------------------------------------------------>
+<div class="container-fluid" style="text-align:center;" >
+<h1>Area Favorites By Category</h1>
+    <div class= "row">
+    <div class="col" class="cardCol" style="display: inline-block;">    
+    <div class= "wrapper" style="width:330px">  
+          <img src="assets/images/james-besser-df80NBQyziU-unsplash Family.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <ul class="text"><b>Family </b><hr>
+            <li class ="resName">O4W Pizza</li>
+            <li class ="resName">Farm Burger Dunwoody</li>
+            <li class ="resName">Miss Gogi</li>
+            <li class ="resName">Oriental Pearl</li>
+            <li class ="resName">Food Terminal</li>
+            <li class ="resName">Masti</li>
+            <li class ="resName">Tabla</li>
+            <li class ="resName">Chai Pani</li>
+            
+            </ul>
+            </div>
+    </div>
+    </div>
+    <div class="col" class="cardCol"  style= "display: inline-block;">
+    <div class= "wrapper" style="width:330px">   
+       
+          <img src="assets/images/creatv-eight-pRKDJZWNUvY-unsplashVegan.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <ul class="text"><b>Vegan </b><hr>
+                <li class ="resName">Mamak Vegan Kitchen</li>
+                <li class ="resName">Mamak Vegan Kitchen</li>
+                <li class ="resName">True Food Kitchen</li>
+                <li class ="resName">Cafe Sunflower Buckhead</li>
+                <li class ="resName">Go Vegan Grill</li>
+                
+            </ul>
+            </div>
+        
+        
+    </div>
+    </div>
+    <div class="col" class="cardCol"  style= "display: inline-block;">
+    <div class= "wrapper" style="width:330px">    
+          <img src="assets/images/louis-hansel-shotsoflouis-S3E8Y_SRPUw-unsplashBars.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+          <ul class="text"><b>Bars </b><hr>
+            <li class ="resName">Brick Store Pub</li>
+            <li class ="resName">Watchman’s</li>
+            <li class ="resName">Lloyd’s</li>
+            <li class ="resName">Golden Eagle</li>
+            <li class ="resName">12</li>
+            <li class ="resName">Red Sky Tapas & Bar</li>
+            <li class ="resName">Stem Wine Bar</li>
+            <li class ="resName">Wrecking Bar Brewpub</li>
+            </ul>    
+        </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+<div class="container">  
+<hr>
+</div> 
+
+
+<!-----------------------------------------------------------------FilterBy------------------------------------------------------------------------------------>
+
+<!---------------------------------------------------------------------Map------------------------------------------------------------------------------------>   
     <div class="container-fluid" style="width: 50%;height:400px; text-align: center;" >
         <h3  style="color:red">Map of Top 404 Restaurants</h3>
         <div id="googleMap" style="width:100%;height:400px;">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1bA63LPSvBxUOKHCeaWo4EeHKqJi1gShX" width="50%" height="300" style="border:1px solid black;"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1bA63LPSvBxUOKHCeaWo4EeHKqJi1gShX" width="70%" height="300" style="border:1px solid black;"></iframe>
         </div>
     </div>
+<!-------------------------------------------------------------------------Top Button-------------------------------------------------------------------------->    
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </main>
-<!----------------------------------------------------JQuery code----------------------------------------------------------------------------------------------->
-<script> 
-    $(document).ready(function(){
-      $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
-      });
-      
-    });  
 
-// Script for the up button When the user scrolls down 20px from the top of the document, show the button
-mybutton = document.getElementById("myBtn");
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-
-</script>
+<script src="script.js"></script>
+<script src="assets/Other Pages/main.js"></script>
 </body>
-<!----------------------------------------------------Navigation bar------------------------------------------------------------------------------------->   
+<!----------------------------------------------------Footer------------------------------------------------------------------------------------->   
 
-<!--FOOTER-->
 <footer>
-    <div class="container">
-    <div class="row">
-        <div class="col-xs-6 col-sm-6 col-lg-3 quicklinks">
-          <h4>Quicklinks</h4>
-          <h6><a href="assets/Other Pages/aquarium.html" style="color: white;">Night at the Aquarium</a></h6>
-          <h6><a href="assets/Other Pages/donut.html" style="color: white;">Top 5 Donut Shops</a></h6>
-          <h6><a href="https://atltransit.ga.gov/system-maps/#marta" style="color: white;">Transportation Maps</a></h6>
-          <h6><a href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" style="color: white;">Explore Atlanta</a></h6>
-          <h6><a href="https://atlantafoodwalks.com/" style="color: white;">Atlanta Food Walks</a></h6>
-          <h6><a href="https://biketoursatl.com/" style="color: white;">Bike Tours</a></h6>
+<div class ="container">
+    <div class= "row">
+        <section class="col-xs-6 col-sm-6 col-lg-3" id="left" style="float: left;">
+        <div class="linkhdr">Quicklinks</div>
+        <div class="links">
+            <p href="https://www.citypass.com/atlanta?mv_source=atlantacvb&campaign=main-citypass">Citypass Atlanta</p>
+            <p href="https://www.piedmontpark.org/venue-rentals/" >Park Venus</p>
+            <p href="https://atltransit.ga.gov/system-maps/#marta">Transportation Maps</p>
+            <p href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" >Explore Atlanta</p></h4>
+            <p href="https://atlantafoodwalks.com/">Atlanta Food Walks</p>
+            <p href="https://biketoursatl.com/" >Bike Tours</p>
         </div>
-        <div class="col-xs-6 col-sm-6 col-lg-3 legal">
-            <h4>Restaurant Links</h4>
-            <h6><a href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1" style="color: white;">Food Truck Festivals </a></h6>
-            <h6><a href="https://www.atlanta.net/dining/farmers-markets/" style="color: white;">Farmer's Market </a></h6> 
-            <h6><a href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/" style="color: white;">Food & Wine Festival </a></h6>        
-            <h6><a href="https://www.atlantamagazine.com/50bestrestaurants/" style="color: white;">Atlanta Magazine </a></h6> 
-        </div>
-        <div class="col-xs-6 col-sm-6 col-lg-3 social">
-            <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
-            <a href="https://www.facebook.com"><img src="assets/images/FBlogo.png" alt="facebook link" style="width:30px;height:30px;"></a>
-            <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:30px;height:30px;"></a>
-            <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:30px;height:30px;"></a>
-            <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="youtube link" style="width:30px;height:30px;"></a>
-            <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:30px;height:30px;"></a>
-            <br><br>
-            <h4>Legal</h4>
-            <h6><a href="" style="color: white;">Privacy Policy</a></h6>
-            <h6><a href="" style="color: white;">Terms & Agreements</a></h6>
-            <h6><a href="" style="color: white;">Site Map</a></h6>
-        </div>
-    </div>
+        </section>
 
-    <div class="row">
-      <div class="col-xs-6 col-sm-6 col-lg-3"></div>
-      <div class="col-xs-6 col-sm-6 col-lg-3 copy"><br><br>Website by Creative Tech Bridge Students<br>Copyright © 2020</div>
-      <div class="col-xs-6 col-sm-6 col-lg-3"></div>
-  </div>
+        <section class="col-xs-6 col-sm-6 col-lg-3 " id="middle" style="float: center;">
+            <div class="linkhdr">Food links</div>
+            <div class="links">
+            <p href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1">Atlanta Food Truck Festivals </p></h4>
+            <p href="https://www.atlanta.net/dining/farmers-markets/" >Atlanta Farmer's Market </p>
+            <p href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/" >Atlanta Food And Wine Festival </p>        
+        </div>
+        </section>
+        <section class="col-xs-6 col-sm-6 col-lg-3" id="right" style="float: right;">
+        <div class="linkhdr" href="contact.html" >Contact Us</div>
+            <div class="socialmedia">
+            <a href="https://www.facebook.com"><img src="Assets/images/FBlogo.png" alt="facebook link" style="width:35px;height:35px;"></a>
+            <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:35px;height:35px;"></a>
+            <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:35px;height:35px;"></a>
+            <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="github link" style="width:35px;height:35px;"></a>
+            <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:35px;height:35px;"></a>
+            </div>
+            <br>   
+        <small> Copyright © 2020 Creative Tech Bridge Students </small>
+        </section>  
+    </div> 
 </div>
-
+       
 </footer>
 </html>
