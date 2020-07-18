@@ -33,7 +33,10 @@ _Your deployed site must include all of the following over at least five HTML pa
 
 ### [Harsha Javle](https://github.com/hjavle)
 
-[_Food and Drink Highlights Section_](fooddrink.html) showcasing curated dining destination across Metro Atlanta
+- [_Food and Drink Highlights Section_](fooddrink.html) showcasing curated dining destination across Metro Atlanta
+- [HTML Contact Form](contact.html)
+- Global COVID Update Message
+- “Back to Top” Navigation Button (JavaScript Feature)
 
 ### [Nia Smith](https://github.com/niasmith)
 
@@ -41,11 +44,14 @@ _Your deployed site must include all of the following over at least five HTML pa
 
 ### [Nia Van Buren](https://github.com/nvansturgill)
 
-README Scope Documentation  
-[_About Our Team_](about.html) page introducing the Area404 family with brief bio sections
+- README Scope Documentation
+- [_About Our Team_](about.html) page introducing the Area404 family with brief bio sections
+- Interative Hover States for Global Navigation
 
 ### [Jessica Zabala](https://github.com/jesszabala23)
 
-[_Homepage_](index.html) serving as a central point of navigation for the site including featured articles (Night at the Aquarium and Donut Shop Highlight)
+- Website UI components including layout and logo design
 
-[_JavaScript Login Feature_](https://jesszabala23.github.io/Area404/assets/Login_v12/index.html)
+- [_Homepage_](index.html) serving as a central point of navigation for the site including featured articles (Night at the Aquarium and Donut Shop Highlight)
+
+- [_JavaScript Login Feature_](https://jesszabala23.github.io/Area404/assets/Login_v12/index.html)
