@@ -45,7 +45,7 @@
   margin-bottom: 10px;
   
 }
-input[type=button]{
+#sendbtn {
     width: 200px;
     border: solid;
     margin-top: 20px;
@@ -69,7 +69,66 @@ input[type=button]{
   margin-top: 10px;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
 
+.modal-content {
+	text-align: center;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-200px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-200px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: red;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
 
 /* ADVERTISE & SUBSCRIBE BUTTONS*/
 .well {
@@ -94,42 +153,40 @@ input[type=button]{
   color:red;
 }
 
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 320px) {
-    footer {
-      width: 100%;
-      margin-top: 0;
-      margin: 0;
-      padding: 0;
-    }
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 320px) {
+  footer {
+    width: 100%;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
   }
-  @media screen and (max-width: 320px) {
-    #left, #middle, #right {
-    float: left;
-    margin:0;
-    }
+}
+@media screen and (max-width: 320px) {
+  #left, #middle, #right {
+  float: left;
+  margin:0;
   }
-    
+}
 
 /*FOOTER*/
 footer {
-  margin-bottom: 40px,; 
-  margin-top: 40px;
+margin-bottom: 40px,; 
+margin-top: 40px;
+background-color: red;
+padding: 20px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+}
+
+.linkhdr{
+  display: inline-block;
+  font-size: 1.5em;
+  margin-bottom: 15px;
   background-color: red;
-  padding: 20px;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  }
-
-  .linkhdr{
-    display: inline-block;
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    background-color: red;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-  }
+}
   .links> p {
     text-align: left;    
     font-size: 1em;
@@ -141,7 +198,7 @@ footer {
     footer {
       width: 100%;
       
-   
+    
     }
   }
   @media screen and (max-width: 320px) {
@@ -153,20 +210,20 @@ footer {
     }
   }
 
-/*CAROUSEL*/
+  /*CAROUSEL*/
 
-.carousel-inner img {
+  .carousel-inner img {
     width: 100%;
     margin: auto;
     min-height:200px;
-}
-@media (max-width: 720px) {
+  }
+  @media (max-width: 720px) {
   .carousel-caption {
     display: none; 
   }
-  
+
   /*LOG-IN PAGE*/
-	/* Coded with love by Mutiullah Samim */
+  /* Coded with love by Mutiullah Samim */
     .user_card {
     height: 400px;
     width: 350px;
@@ -226,7 +283,7 @@ footer {
     box-shadow: none !important;
     outline: 0px !important;
   }
- .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #c0392b !important;
   } 
 
