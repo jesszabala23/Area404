@@ -1,52 +1,51 @@
-
-# Area404: TCP Front-End Group Project  
+# Area404: TCP Front-End Group Project
 
 ## Project Overview
 
 ### Assignment Description:
+
 Build and deploy a web app in order to solidify the fundamental concepts of Front-end web development including Git version control, HTML, CSS, and JavaScript.
 
 ### Site purpose
+
 Area404 aims to be a curated directory of interesting places and events throughout Metro Atlanta's.
 
-### Our Team
-#### [Harsha Javle](https://github.com/hjavle)
-Placeholder: Insert brief personal bio
-
-#### [Nia Smith](https://github.com/niasmith)
-Placeholder: Insert brief personal bio
-
-#### [Nia Van Buren](https://github.com/nvansturgill)
-Placeholder: Insert brief personal bio
-
-#### [Jessica Zabala](https://github.com/jesszabala23)
-Placeholder: Insert brief personal bio
-
-
 ## Deliverables
-  - Link to [master repository for the project on GitHub](https://github.com/jesszabala23/Area404)
-  - Link to [website deployed through GitHub pages](https://jesszabala23.github.io/Area404/)
+
+- Link to [master repository for the project on GitHub](https://github.com/jesszabala23/Area404)
+- Link to [website deployed through GitHub pages](https://jesszabala23.github.io/Area404/)
 
 ## Acceptance Criteria
-*Your deployed site must include all of the following over at least five HTML pages:*
-  - One heading
-  - Five paragraphs
-  - One list
-  - One Bootstrap grid
-  - Five images
-  - One linked external stylesheet
-  - One linked external script file
-  - Two distinct JavaScript features
-  - A project scope including your website’s purpose and page details
+
+_Your deployed site must include all of the following over at least five HTML pages:_
+
+- One heading
+- Five paragraphs
+- One list
+- One Bootstrap grid
+- Five images
+- One linked external stylesheet
+- One linked external script file
+- Two distinct JavaScript features
+- A project scope including your website’s purpose and page details
 
 ## Breakdown of Responsibilities and Ownership
-#### [Harsha Javle](https://github.com/hjavle)
 
+### [Harsha Javle](https://github.com/hjavle)
 
-#### [Nia Smith](https://github.com/niasmith)
+[_Food and Drink Highlights Section_](fooddrink.html) showcasing curated dining destination across Metro Atlanta
 
+### [Nia Smith](https://github.com/niasmith)
 
-#### [Nia Van Buren](https://github.com/nvansturgill)
+[_Attractions Highlights Section_](attractions.html) showcasing curated things to do throughout Metro Atlanta
 
+### [Nia Van Buren](https://github.com/nvansturgill)
 
-#### [Jessica Zabala](https://github.com/jesszabala23)
+README Scope Documentation  
+[_About Our Team_](about.html) page introducing the Area404 family with brief bio sections
+
+### [Jessica Zabala](https://github.com/jesszabala23)
+
+[_Homepage_](index.html) serving as a central point of navigation for the site including featured articles (Night at the Aquarium and Donut Shop Highlight)
+
+[_JavaScript Login Feature_](https://jesszabala23.github.io/Area404/assets/Login_v12/index.html)
