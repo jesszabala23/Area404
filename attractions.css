@@ -1,6 +1,8 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* alert */
 #panel, #flip {
   color: white;
   padding: 5px;
@@ -9,33 +11,6 @@
   background-color: red;
   border: solid 1px white;
 }
-
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    font-size: 26px;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  .navbar a li{
-      float:right;
-  }
-
-.dropdown-menu {
-    background-color: red;
-    font-size: 26px;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-.dropdown-item {
-    color: white;
-    background-color: red;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 
 .navbar-toggle{
   background-color:#000000;
@@ -75,23 +50,7 @@
     margin: auto;
 }
 
-
-/* Add a gray background color and some padding to the footer */
-footer {
-  background: red;
-  padding: 50px;
-  font-size: 15px;
-}
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-
- @media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
-} 
-
-/*FOOTER*/
+/*-------------------FOOTER-----------------------*/
 footer {
   margin-bottom: 20px,; 
   margin-top: 20px;
@@ -131,3 +90,4 @@ footer {
     padding-bottom: 20px;
     }
   }
+  /* ------------------------ */

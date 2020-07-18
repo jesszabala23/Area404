@@ -41,15 +41,6 @@
   margin-left: 20px;
 }
 
-/* photos and paragraph between them */
-
-/* .content{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-
 /* Attractions button */
 .attractionsBtn{
   border-style: solid;
@@ -72,21 +63,6 @@
   
 }
 
-/*FOOTER*/
-/* footer {
-  background-color: red;
-  padding: 20px 250px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  align-content: center;
-}
-
-.copy {
-font-size: 12px;
-text-align: center;
-} */
-
-/*FOOTER*/
 footer {
   margin-bottom: 20px,; 
   margin-top: 20px;
