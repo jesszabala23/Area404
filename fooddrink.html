@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://www.toptal.com/designers/htmlarrows/numbers/roman-numeral-one/">
-    <link rel="stylesheet" type="text/css" href="style.css">  
+   
     <link rel="stylesheet" type="text/css" href="fooddrink.css">
 </html>
 
@@ -18,14 +18,15 @@
     <div id="flip"> Special Covid-19 Message click here.</div>
     <div id="panel">Please check with the restaurants before your visit, due to Covid-19 timings and procedures might have been affected. Stay safe Stay healthy.</div>
 <!---------------------------------------------------------------------------------------------special message alert----------------------------------------->    
-<!-- Header -->
+<!-- NAVIGATION -->
 <nav class="navbar navbar-inverse" style="background-color: white">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a href="index.html">
-                <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "180px">
+            <a href="index.html" class="logo">
+                <img alt="Area404 logo" src="assets/images/404logo-white.png" width= "150px">
             </a>
-<!-- Collapse Button -->       
+
+<!-- DROPDOWN -->       
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -36,29 +37,36 @@
         <ul class="nav navbar-nav">
             <br><li class="active"><a href="index.html">Home</a></li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="foodrink.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle" href="fooddrink.html" id="navbarDropdownfoodLink" data-toggle="dropdown">
                 Food & Drinks
-                </a> 
-               
+                </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" onclick="location.href='#noOne'" >404 Top 10</a><br>
-                <a class="dropdown-item" onclick="location.href='#noFilterby'">Area Favorites</a><br>
+                <a class="dropdown-item-1" onclick="location.href='#noOne'" >404 Top 10</a><br>
+                <a class="dropdown-item-1" onclick="location.href='#noFilterby'">Area Favorites</a><br>
                 
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle" href="attraction.html" id="navbarDropdownattractLink" data-toggle="dropdown">
                 Attractions
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<<<<<<< HEAD
                 <a class="dropdown-item" href="attraction.html">This weekend</a><br>
                 <a class="dropdown-item" href="nature.html">Nature Perserves</a><br>
                 <a class="dropdown-item" href="family-fun.html">Family Fun</a>
+=======
+                <a class="dropdown-item-1" href="#">This weekend</a><br>
+                <a class="dropdown-item-1" href="#">Nature Perserves</a><br>
+                <a class="dropdown-item-1" href="#">Family Fun</a>
+>>>>>>> 035567903dba3b95e524f6445ad5a490f153dcce
                 </div>
             </li>
             <li><a href="about.html">Our Team</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+
+<!--LOG-IN-->
         <ul class="nav navbar-nav navbar-right">
             <br><li><a href="assets/Login_v12/index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
@@ -244,7 +252,7 @@
     <hr>
 </div>
 <!-----------------------------------------------------------------Res 6---------------------------------------------------------------------------------->
-<div class ="container container-fluid" class= "abtRest"></div>
+<div class ="container container-fluid" class= "abtRest">
     <div class= "row">
         <div class="col-lg-12">
             <div id="symbol"> &#54;</div>
@@ -253,16 +261,15 @@
         </div>    
             
         <div class="resPress" class="col" style="text-align: center;">
-            <img src="images/star.png" class="imgRes" alt="Star Provisions" width="1000px"/>
-               
+            <img src="images/star.png" class="imgRes" alt="Star Provisions" width="1000px"/>              
         </div> 
 
         <div class="resInsta" style="text-align: center;" class ="col">
-        Bacchanalia has well-earned its reputation as Atlanta's most-celebrated restaurant since opening in 1993, and consistently gains ratings as one of 
+       <p> Bacchanalia has well-earned its reputation as Atlanta's most-celebrated restaurant since opening in 1993, and consistently gains ratings as one of 
         Atlanta's top restaurants.Featuring contemporary American cuisine from Chefs/Owners Anne Quatrano and Clifford Harrison, and a culinary team led by 
         Jonathan Kallini, Bacchanalia features light and creative plates. Bacchanalia's seasonal menu relies entirely on organic ingredients, many sourced 
         from Anne and Clifford's farm, Summerland, creating a fresh and unique experience every time.Bacchanalia offers a four course, prix fixe menu at 
-        $95 per person. The menu evolves slightly each evening and throughout the seasons. We offer a wine pairing suggestion with many of the menu options.
+        $95 per person. The menu evolves slightly each evening and throughout the seasons. We offer a wine pairing suggestion with many of the menu options.</p>
         </div>
 
         <div class="info" class="container col-md-12" style="text-align: center;" >
@@ -399,9 +406,6 @@
             <li class ="resName">Oriental Pearl</li>
             <li class ="resName">Food Terminal</li>
             <li class ="resName">Masti</li>
-            <li class ="resName">Tabla</li>
-            <li class ="resName">Chai Pani</li>
-            
             </ul>
             </div>
     </div>
@@ -436,7 +440,7 @@
             <li class ="resName">12</li>
             <li class ="resName">Red Sky Tapas & Bar</li>
             <li class ="resName">Stem Wine Bar</li>
-            <li class ="resName">Wrecking Bar Brewpub</li>
+            
             </ul>    
         </div>
         </div>
@@ -467,43 +471,48 @@
 </body>
 <!----------------------------------------------------Footer------------------------------------------------------------------------------------->   
 
+<!--FOOTER-->
 <footer>
-<div class ="container">
-    <div class= "row">
-        <section class="col-xs-6 col-sm-6 col-lg-3" id="left" style="float: left;">
-        <div class="linkhdr">Quicklinks</div>
-        <div class="links">
-            <p href="https://www.citypass.com/atlanta?mv_source=atlantacvb&campaign=main-citypass">Citypass Atlanta</p>
-            <p href="https://www.piedmontpark.org/venue-rentals/" >Park Venus</p>
-            <p href="https://atltransit.ga.gov/system-maps/#marta">Transportation Maps</p>
-            <p href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" >Explore Atlanta</p></h4>
-            <p href="https://atlantafoodwalks.com/">Atlanta Food Walks</p>
-            <p href="https://biketoursatl.com/" >Bike Tours</p>
-        </div>
-        </section>
-
-        <section class="col-xs-6 col-sm-6 col-lg-3 " id="middle" style="float: center;">
-            <div class="linkhdr">Food links</div>
-            <div class="links">
-            <p href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1">Atlanta Food Truck Festivals </p></h4>
-            <p href="https://www.atlanta.net/dining/farmers-markets/" >Atlanta Farmer's Market </p>
-            <p href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/" >Atlanta Food And Wine Festival </p>        
-        </div>
-        </section>
-        <section class="col-xs-6 col-sm-6 col-lg-3" id="right" style="float: right;">
-        <div class="linkhdr" href="contact.html" >Contact Us</div>
-            <div class="socialmedia">
-            <a href="https://www.facebook.com"><img src="Assets/images/FBlogo.png" alt="facebook link" style="width:35px;height:35px;"></a>
-            <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:35px;height:35px;"></a>
-            <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:35px;height:35px;"></a>
-            <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="github link" style="width:35px;height:35px;"></a>
-            <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:35px;height:35px;"></a>
+    <div class ="container">
+        <div class= "row">
+            <div class="col-sm-4" id="left" style="float: left;";>
+                <h4>Quicklinks<h4>
+                <h6><a href="assets/Other Pages/aquarium.html" style="color: white;">Night at the Aquarium</a></h6>
+                <h6><a href="assets/Other Pages/donut.html" style="color: white;">Top 5 Donut Shops</a></h6>
+                <h6><a href="https://atltransit.ga.gov/system-maps/#marta" style="color: white;">Transportation Maps</a></h6>
+                <h6><a href="http://your360.atlantameetings.com/?_ga=2.195200812.1481458700.1593540640-1419115226.1593540640" style="color: white;">Explore Atlanta</a></h6>
+                <h6><a href="https://atlantafoodwalks.com/" style="color: white;">Atlanta Food Walks</a></h6>
+                <h6><a href="https://biketoursatl.com/" style="color: white;">Bike Tours</a></h6>
             </div>
-            <br>   
-        <small> Copyright © 2020 Creative Tech Bridge Students </small>
-        </section>  
-    </div> 
-</div>
-       
-</footer>
+    
+            <div class="col-sm-4" id="middle" style="float: center;">
+                <h4>Restaurant Links</h4>
+                <h6><a href="https://www.eventbrite.com/d/ga--atlanta/food-and-drink--events/food-truck-festival/?page=1" style="color: white;">Food Truck Festivals </a></h6>
+                <h6><a href="https://www.atlanta.net/dining/farmers-markets/" style="color: white;">Farmer's Market </a></h6> 
+                <h6><a href="https://www.atlanta.net/dining/atlanta-food-and-wine-festival/" style="color: white;">Food & Wine Festival </a></h6>        
+                <h6><a href="https://www.atlantamagazine.com/50bestrestaurants/" style="color: white;">Atlanta Magazine </a></h6>              
+            </div>
+  
+            <div class="col-sm-4" id="right" style="float: right;">
+                <h4><a href="contact.html" style="color: white;">Contact Us</a></h4>
+                <div class="socialmedia">
+                <a href="https://www.facebook.com"><img src="Assets/images/FBlogo.png" alt="facebook link" style="width:35px;height:35px;"></a>
+                <a href="https://www.twitter.com"><img src="assets/images/Twitterlogo.png" alt="linkedin link" style="width:35px;height:35px;"></a>
+                <a href="https://www.instagram.com"><img src="assets/images/IGlogo.png" alt="instagram link" style="width:35px;height:35px;"></a>
+                <a href="https://www.youtub.com"><img src="assets/images/YTlogo.png" alt="github link" style="width:35px;height:35px;"></a>
+                <a href="#"><img src="assets/images/Subcribelogo.png" alt="github link" style="width:35px;height:35px;"></a>
+                </div><br>
+                <h4>Legal</h4>
+                <h6><a href="" style="color: white;">Privacy Policy</a></h6>
+                <h6><a href="" style="color: white;">Terms & Agreements</a></h6>
+                <h6><a href="" style="color: white;">Site Map</a></h6>       
+            </div>  
+        </div> 
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-12"></div>
+            <div class="col-xs-6 col-sm-6 col-lg-12 copy" style="text-align: center;"><br><br>Website by Creative Tech Bridge Students<br>Copyright © 2020</div>
+            <div class="col-xs-6 col-sm-6 col-lg-12"></div>
+        </div>
+    </div>
+    </footer> 
 </html>

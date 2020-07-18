@@ -53,6 +53,9 @@
   color: white;
   opacity: 1.0;
 }
+ul.nav a:hover{
+  color: black !important;
+}
 
 /* ADVERTISE & SUBSCRIBE BUTTONS*/
 .well {
@@ -155,7 +158,7 @@ footer {
 /*Nature Page*/
 .nature-description h1{
   text-align: center;
-} 
+}
 
 .nature p {
   margin-bottom: 40px;
@@ -172,10 +175,10 @@ footer {
 }
 @media (max-width: 720px) {
   .carousel-caption {
-    display: none; 
+    display: none;
   }
 
-  
+
   /*LOG-IN PAGE*/
 	/* Coded with love by Mutiullah Samim */
     .user_card {
