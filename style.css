@@ -52,6 +52,9 @@
   color: white;
   opacity: 1.0;
 }
+ul.nav a:hover{
+  color: black !important;
+}
 
 /* ADVERTISE & SUBSCRIBE BUTTONS*/
 .well {
